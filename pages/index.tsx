@@ -1,20 +1,14 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { useRecoilValue } from "recoil";
-import { currentPageState } from "../recoil/atoms/common";
-import Landing from "./landing";
-import NavBar from "./navbar";
+import Landing from "../components/landing";
 
 const Home: NextPage = () => {
-  const pageState = useRecoilValue(currentPageState);
-
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-full">
       <Head>
         <title>BarBamBar</title>
       </Head>
-      <NavBar />
-      {pageState === "landing" && <Landing />}
+      <Landing />
     </div>
   );
 };
