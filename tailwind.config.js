@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       exo: ["Exo", "sans-serif"],
+      kor: ["Do Hyeon", "sans-serif"],
     },
     extend: {},
   },
