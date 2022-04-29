@@ -1,13 +1,20 @@
 import type { NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { useSetRecoilState } from "recoil";
+import { currentPageState } from "../recoil/atoms/common";
 
 const NavBar: NextPage = () => {
+  const setPageState = useSetRecoilState(currentPageState);
+
   return (
     <nav className="flex items-center justify-between flex-wrap bg-black p-4">
       <div className="flex items-center flex-shrink-0 text-white mr-20">
         <Image src="/img/cat.png" width={24} height={24} />
-        <span className="font-exo font-extrabold text-2xl tracking-tight ml-3">
+        <span
+          className="font-exo font-extrabold text-2xl tracking-tight ml-3 cursor-pointer"
+          onClick={() => setPageState("landing")}
+        >
           BarBamBar
         </span>
       </div>
@@ -17,18 +24,21 @@ const NavBar: NextPage = () => {
           <a
             href="#responsive-header"
             className="font-exo font-semibold block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4"
+            onClick={() => setPageState("about")}
           >
             ABOUT
           </a>
           <a
             href="#responsive-header"
             className="font-exo font-semibold block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4"
+            onClick={() => setPageState("menu")}
           >
             MENU
           </a>
           <a
             href="#responsive-header"
             className="font-exo font-semibold block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4"
+            onClick={() => setPageState("heros")}
           >
             HEROS
           </a>
