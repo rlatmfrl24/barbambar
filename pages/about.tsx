@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import RulesLine from "../components/about/rules";
 
 const About: NextPage = () => {
   return (
@@ -39,16 +40,17 @@ const About: NextPage = () => {
           <div className="absolute bg-white px-3 font-exo text-3xl text-red-600 -top-5 ">
             BAR BAM BAR RULES
           </div>
-          <div className="flex-1 gap-1 lg:my-8 p-5">
-            <div className="text-left font-kor lg:text-3xl lg:mb-7">
-              <span className="flex flex-row">
-                •
-                <blockquote className="ml-2">
-                  만취하신 분은 돌려보냅니다 손님과 저를 위한 일이니 기분
-                  상해하지 마세요
-                </blockquote>
-              </span>
-            </div>
+          <div className="flex-1 gap-1 lg:my-8 pt-5 px-5">
+            <RulesLine text="만취하신 분은 돌려보냅니다. 손님과 저를 위한 일이니 기분 상해하지 마세요." />
+            <RulesLine text="외부음식물 반입 금지입니다." />
+            <RulesLine text="고양이에게 사람 먹는 음식을 주시는 분에게는 고양이 사료 먹여드립니다." />
+            <RulesLine text="주렁주렁 실내동물원에 오신것처럼 이동하시면 제가 아주 불편합니다." />
+            <RulesLine text="고양이 간식, 장난감 가져오지 마세요. 제가 잘 먹이고 잘 놀아줍니다." />
+            <RulesLine text="손님의 부주의에 의한 잔 파손시에는 비용을 별도로 청구합니다." />
+            <RulesLine text="영등포에 모텔 많으니 거기 가셔서 물고 빨고 하세요." />
+            <RulesLine text="고양이 불러도 안갑니다. 휘파람, 고양이 소리 절대 금지." />
+            <RulesLine text="빨대, 이어폰, 손으로 고양이 놀아주지 마세요. 장난감이 아니잖아요." />
+            <RulesLine text="애완동물의 '완'이라는 글자는 장난감이라는 뜻입니다. 반려동물이라고 해주세요." />
           </div>
         </div>
       </div>
