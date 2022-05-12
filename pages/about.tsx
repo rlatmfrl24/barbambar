@@ -35,6 +35,22 @@ const About: NextPage = () => {
           </div>
         </div>
         <div className="border-2 lg:mt-7 mt-3"></div>
+        <div className="relative flex justify-center border-4 border-black mt-10">
+          <div className="absolute bg-white px-3 font-exo text-3xl text-red-600 -top-5 ">
+            BAR BAM BAR RULES
+          </div>
+          <div className="flex-1 gap-1 lg:my-8 p-5">
+            <div className="text-left font-kor lg:text-3xl lg:mb-7">
+              <span className="flex flex-row">
+                •
+                <blockquote className="ml-2">
+                  만취하신 분은 돌려보냅니다 손님과 저를 위한 일이니 기분
+                  상해하지 마세요
+                </blockquote>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
