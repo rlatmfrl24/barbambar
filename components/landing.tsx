@@ -20,7 +20,7 @@ const Landing: NextPage = () => {
         </div>
       </div>
       <div className="h-1/6 flex flex-col justify-center align-middle text-center font-kor bg-black text-white">
-        <span className="text-xl">
+        <span className="text-base lg:text-xl">
           서울시 영등포구 영중로4길 25-1(영등포동3가 23-8) 2층
         </span>
         <span>이 사이트는 바밤바 공식 사이트가 아닌 팬 사이트입니다</span>
