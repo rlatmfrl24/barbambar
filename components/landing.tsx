@@ -5,7 +5,12 @@ const Landing: NextPage = () => {
   return (
     <div className="flex flex-col flex-1">
       <div className="relative flex h-full flex-col items-center justify-center">
-        <Image src="/img/main.jpg" layout="fill" objectFit="cover" />
+        <Image
+          src="/img/main.jpg"
+          priority={true}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="absolute text-center flex flex-col">
           <div className="lg:mb-10 m-5">
             <span className="bg-black pl-5 pr-5 font-exo lg:text-8xl text-5xl  text-white">

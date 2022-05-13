@@ -42,7 +42,7 @@ const About: NextPage = () => {
           <div className="absolute bg-gray-100 px-3 font-exo text-3xl text-red-600 -top-5 ">
             BAR BAM BAR RULES
           </div>
-          <div className="flex-1 gap-1 lg:my-8 pt-5 px-5">
+          <div className="flex-1 gap-1 lg:my-8 my-2 pt-5 px-5">
             <RulesLine text="만취하신 분은 돌려보냅니다. 손님과 저를 위한 일이니 기분 상해하지 마세요." />
             <RulesLine text="외부음식물 반입 금지입니다." />
             <RulesLine text="고양이에게 사람 먹는 음식을 주시는 분에게는 고양이 사료 먹여드립니다." />
@@ -55,7 +55,7 @@ const About: NextPage = () => {
             <RulesLine text="애완동물의 '완'이라는 글자는 장난감이라는 뜻입니다. 반려동물이라고 해주세요." />
           </div>
         </div>
-        <div className="border-2 lg:mt-7 mt-3"></div>
+        <div className="border-2 mt-8"></div>
         <div className="relative flex justify-center border-4 border-black mt-10">
           <div className="absolute bg-gray-100 px-3 font-exo text-3xl text-red-600 -top-5 ">
             BAR BAM BAR FAQ
