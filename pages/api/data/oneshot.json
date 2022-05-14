@@ -1,0 +1,87 @@
+{
+  "key": "oneshot",
+  "title": "나... 오늘 집에 안갈래 (원샷)",
+  "items": [
+    {
+      "name": "블루 스카이",
+      "englishName": "Blue Sky",
+      "price": 1.6,
+      "description": "97년 세계바텐더 대회 동양인 최초 우승",
+      "alcohol": 43,
+      "ingredients": ["트리플섹", "보드카", "블루큐라소", "베일리스", "151"],
+      "link": ""
+    },
+    {
+      "name": "비오십이",
+      "englishName": "B-52",
+      "price": 1.6,
+      "description": "일본에서 주문하면 안돼요",
+      "alcohol": 32,
+      "ingredients": ["깔루아", "베일리스", "그랑마니에"],
+      "link": ""
+    },
+    {
+      "name": "레인보우",
+      "englishName": "Rainbow",
+      "price": 2.5,
+      "description": "7가지 층으로 아름다운 빛깔이고 나발이고 만들기 귀찮습니다.",
+      "alcohol": 24,
+      "ingredients": [],
+      "link": ""
+    },
+    {
+      "name": "빠라라샷",
+      "englishName": "Barara Shot",
+      "price": 1.5,
+      "description": "원샷하고 레몬을 빨아라",
+      "alcohol": 1.5,
+      "ingredients": ["데킬라", "라임", "레몬"],
+      "link": ""
+    },
+    {
+      "name": "버블껌",
+      "englishName": "Bubble Gum",
+      "price": 1.4,
+      "description": "기분 좋아지는 풍선껌",
+      "alcohol": 18.6,
+      "ingredients": ["바나나", "베일리스", "블루큐라소"],
+      "link": ""
+    },
+    {
+      "name": "예거 밤",
+      "englishName": "Jager Bomb",
+      "price": 1.4,
+      "description": "",
+      "alcohol": 11,
+      "ingredients": ["예거", "레드불"],
+      "link": ""
+    },
+    {
+      "name": "아그와 밤",
+      "englishName": "Agwa Bomb",
+      "price": 1.4,
+      "description": "",
+      "alcohol": 10,
+      "ingredients": ["아그와", "레드불"],
+      "link": ""
+    },
+    {
+      "name": "아이리쉬 밤",
+      "englishName": "Irish Bomb",
+      "price": 1.6,
+      "description": "BTS가 맛있어하는 폭탄주!",
+      "alcohol": 8.2,
+      "ingredients": ["기네스", "베일리스", "제임슨"],
+      "link": ""
+    },
+    {
+      "name": "엑스 밤",
+      "englishName": "X-Rated Bomb",
+      "price": 1.5,
+      "description": "",
+      "alcohol": 6,
+      "ingredients": ["엑스레이티드", "레드불"],
+      "link": ""
+    }
+  ]
+}

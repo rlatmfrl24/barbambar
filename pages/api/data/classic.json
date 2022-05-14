@@ -1,0 +1,95 @@
+{
+  "key": "classic",
+  "title": "클래식이란 옛것이 아닌 최고라는 뜻!",
+  "items": [
+    {
+      "name": "맨하탄",
+      "englishName": "Manhattan",
+      "price": 1.6,
+      "description": "칵테일의 여왕",
+      "alcohol": 37,
+      "ingredients": ["버번", "앙고스투라", "스윗버무스"],
+      "link": ""
+    },
+    {
+      "name": "올드 패션드",
+      "englishName": "Old Fashioned",
+      "price": 1.7,
+      "description": "누가 구닥다리라고 부르는가",
+      "alcohol": 33.7,
+      "ingredients": ["버번or라이", "앙고스투라", "설탕", "탄산수"],
+      "link": ""
+    },
+    {
+      "name": "라스트 워드",
+      "englishName": "Last Word",
+      "price": 2.0,
+      "description": "참 좋은 인생이었다.",
+      "alcohol": 33.5,
+      "ingredients": ["진", "샤르트뢰즈 그린", "마라스키노", "라임"],
+      "link": ""
+    },
+    {
+      "name": "뷰카레",
+      "englishName": "Vieux Carre",
+      "price": 2.2,
+      "description": "명화와도 같은 칵테일",
+      "alcohol": 32.8,
+      "ingredients": [
+        "버번or라이",
+        "꼬냑",
+        "스윗베르뭇",
+        "베네딕틴",
+        "앙고스투라",
+        "페이쇼드"
+      ],
+      "link": ""
+    },
+    {
+      "name": "불바디에",
+      "englishName": "Boulevardier",
+      "price": 1.7,
+      "description": "버번 좋아하는 사람들 집중!",
+      "alcohol": 28,
+      "ingredients": ["캄파리", "버번", "스윗베르뭇"],
+      "link": ""
+    },
+    {
+      "name": "네그로니",
+      "englishName": "Negroni",
+      "price": 1.6,
+      "description": "",
+      "alcohol": 27.3,
+      "ingredients": ["캄파리", "진", "스윗베르뭇"],
+      "link": ""
+    },
+    {
+      "name": "그래스호퍼",
+      "englishName": "Grass Hopper",
+      "price": 1.6,
+      "description": "민트초코!!",
+      "alcohol": 16,
+      "ingredients": ["민트", "카카오", "크림"],
+      "link": ""
+    },
+    {
+      "name": "라모스 진피즈",
+      "englishName": "Ramos Gin Fizz",
+      "price": 2.3,
+      "description": "10분동안 하드쉐이킹? 놉. 전동거품기!",
+      "alcohol": 8.6,
+      "ingredients": [
+        "진",
+        "레몬",
+        "라임",
+        "계란흰자",
+        "설탕",
+        "크림",
+        "오렌지플라워워터",
+        "바닐라빈",
+        "탄산수"
+      ],
+      "link": ""
+    }
+  ]
+}

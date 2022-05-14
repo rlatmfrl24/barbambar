@@ -1,0 +1,105 @@
+{
+  "key": "longtea",
+  "title": "롱 아일랜드 아이스 티",
+  "items": [
+    {
+      "name": "보스턴 티 파티",
+      "englishName": "Boston Tea Party",
+      "price": 1.7,
+      "description": "미국 역사상 가장 유명한 사건 중 하나",
+      "alcohol": 21,
+      "ingredients": [
+        "럼",
+        "진",
+        "보드카",
+        "데킬라",
+        "트리플섹",
+        "라임",
+        "레몬",
+        "깔루아"
+      ],
+      "link": ""
+    },
+    {
+      "name": "롱 아일랜드 아이스 티",
+      "englishName": "Long Island Ice Tea",
+      "price": 1.7,
+      "description": "아이스티 같은 색이라고 무시하다가는...",
+      "alcohol": 20,
+      "ingredients": [
+        "럼",
+        "진",
+        "보드카",
+        "데킬라",
+        "트리플섹",
+        "라임",
+        "레몬",
+        "콜라"
+      ],
+      "link": ""
+    },
+    {
+      "name": "롱 비치 아이스티",
+      "englishName": "Long Beach Ice Tea",
+      "price": 1.7,
+      "description": "콜라의 빈 자리를 크랜베리가 채워주면",
+      "alcohol": 21,
+      "ingredients": [
+        "럼",
+        "진",
+        "보드카",
+        "데킬라",
+        "트리플섹",
+        "라임",
+        "레몬",
+        "크랜베리"
+      ],
+      "link": ""
+    },
+    {
+      "name": "아디오스 마더XX",
+      "englishName": "A.M.F",
+      "price": 1.7,
+      "description": "누군가한테 욕하고 싶을 때 한잔!",
+      "alcohol": 21,
+      "ingredients": [
+        "럼",
+        "진",
+        "보드카",
+        "데킬라",
+        "블루큐라소",
+        "라임",
+        "레몬",
+        "스프라이트"
+      ],
+      "link": ""
+    },
+    {
+      "name": "도쿄 아이스 티",
+      "englishName": "Tokyo Ice Tea",
+      "price": 1.7,
+      "description": "롱티에 왜 미도리까지 넣었어!!",
+      "alcohol": 20,
+      "ingredients": [
+        "럼",
+        "진",
+        "보드카",
+        "데킬라",
+        "미도리",
+        "라임",
+        "레몬",
+        "스프라이트"
+      ],
+      "link": ""
+    },
+    {
+      "name": "텍사스 티",
+      "englishName": "Texas Tea",
+      "price": 1.7,
+      "description": "데킬라만 듬뿍!!",
+      "alcohol": 21,
+      "ingredients": ["데킬라", "트리플섹", "라임", "레몬", "콜라"],
+      "link": ""
+    }
+  ]
+}

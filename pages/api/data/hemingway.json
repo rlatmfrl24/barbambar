@@ -1,0 +1,42 @@
+{
+  "key": "hemingway",
+  "title": "노인과 바다의 어니스트 헤밍웨이 특집",
+  "items": [
+    {
+      "name": "다이키리",
+      "englishName": "Daiquiri",
+      "price": 1.6,
+      "description": "내 다이키리는 엘 플로리디타에서",
+      "alcohol": 22,
+      "ingredients": ["럼", "라임", "설탕"],
+      "link": ""
+    },
+    {
+      "name": "파파 다이키리",
+      "englishName": "Papa Daiquiri",
+      "price": 1.7,
+      "description": "당뇨가 있었던 헤밍웨이만의 레시피!",
+      "alcohol": 21,
+      "ingredients": ["럼", "마라스키노", "라임", "자몽"],
+      "link": ""
+    },
+    {
+      "name": "쿠바 리브레",
+      "englishName": "Cuba Libre",
+      "price": 1.5,
+      "description": "비바! 쿠바 리브레!(쿠바 독립 만세!)",
+      "alcohol": 13,
+      "ingredients": ["럼", "콜라", "라임"],
+      "link": ""
+    },
+    {
+      "name": "모히토",
+      "englishName": "Mojito",
+      "price": 1.5,
+      "description": "내 모히토는 라 보데기타에서",
+      "alcohol": 11,
+      "ingredients": ["제철 과일 모히토는 직원 문의!!"],
+      "link": ""
+    }
+  ]
+}
