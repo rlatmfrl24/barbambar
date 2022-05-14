@@ -9,7 +9,8 @@
       "description": "아이언맨 토니 스타크",
       "alcohol": 38,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "더티 마티니",
@@ -18,7 +19,8 @@
       "description": "올리브의 짭조름함",
       "alcohol": 28,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "보드카 마티니",
@@ -27,7 +29,8 @@
       "description": "제임스 본드 마티니",
       "alcohol": 35,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "초콜릿 마티니",
@@ -36,7 +39,8 @@
       "description": "초콜릿.... 너낌적인 너낌",
       "alcohol": 35,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "비키니 마티니",
@@ -45,7 +49,8 @@
       "description": "해변에서 비키니 입고 한잔",
       "alcohol": 27,
       "ingredients": ["진", "피치", "블루큐라소", "레몬"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "애플 마티니",
@@ -54,7 +59,8 @@
       "description": "덴버.... 라는 껌 아시나요?",
       "alcohol": 19,
       "ingredients": ["보드카", "애플퍼커", "레몬"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     }
   ]
 }

@@ -9,7 +9,8 @@
       "description": "97년 세계바텐더 대회 동양인 최초 우승",
       "alcohol": 43,
       "ingredients": ["트리플섹", "보드카", "블루큐라소", "베일리스", "151"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "비오십이",
@@ -18,7 +19,8 @@
       "description": "일본에서 주문하면 안돼요",
       "alcohol": 32,
       "ingredients": ["깔루아", "베일리스", "그랑마니에"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "레인보우",
@@ -27,7 +29,8 @@
       "description": "7가지 층으로 아름다운 빛깔이고 나발이고 만들기 귀찮습니다.",
       "alcohol": 24,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "빠라라샷",
@@ -36,7 +39,8 @@
       "description": "원샷하고 레몬을 빨아라",
       "alcohol": 1.5,
       "ingredients": ["데킬라", "라임", "레몬"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "버블껌",
@@ -45,7 +49,8 @@
       "description": "기분 좋아지는 풍선껌",
       "alcohol": 18.6,
       "ingredients": ["바나나", "베일리스", "블루큐라소"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "예거 밤",
@@ -54,7 +59,8 @@
       "description": "",
       "alcohol": 11,
       "ingredients": ["예거", "레드불"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "아그와 밤",
@@ -63,7 +69,8 @@
       "description": "",
       "alcohol": 10,
       "ingredients": ["아그와", "레드불"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "아이리쉬 밤",
@@ -72,7 +79,8 @@
       "description": "BTS가 맛있어하는 폭탄주!",
       "alcohol": 8.2,
       "ingredients": ["기네스", "베일리스", "제임슨"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "엑스 밤",
@@ -81,7 +89,8 @@
       "description": "",
       "alcohol": 6,
       "ingredients": ["엑스레이티드", "레드불"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     }
   ]
 }

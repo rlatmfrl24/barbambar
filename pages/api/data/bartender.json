@@ -9,7 +9,8 @@
       "description": "",
       "alcohol": 0,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "말리부 콕",
@@ -18,7 +19,8 @@
       "description": "",
       "alcohol": 0,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "말리부 파인",
@@ -27,7 +29,8 @@
       "description": "",
       "alcohol": 0,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "퍼지 네이블",
@@ -36,7 +39,8 @@
       "description": "",
       "alcohol": 0,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "말리부 오렌지",
@@ -45,7 +49,8 @@
       "description": "",
       "alcohol": 0,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "카시스 오렌지",
@@ -54,7 +59,8 @@
       "description": "",
       "alcohol": 0,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "스크류 드라이버",
@@ -63,7 +69,8 @@
       "description": "",
       "alcohol": 0,
       "ingredients": [],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     }
   ]
 }

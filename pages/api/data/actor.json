@@ -9,7 +9,8 @@
       "description": "킹스맨이 즐겨마셨다는...",
       "alcohol": 40,
       "ingredients": ["스카치위스키", "드람브이"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "비앤비",
@@ -18,7 +19,8 @@
       "description": "푸스카페? 온더락? 당신의 선택은?",
       "alcohol": 40,
       "ingredients": ["꼬냑", "베네딕틴"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "갓파더",
@@ -27,7 +29,8 @@
       "description": "1972년 대부",
       "alcohol": 35,
       "ingredients": ["스카치위스키", "디사론노"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "갓마더",
@@ -36,7 +39,8 @@
       "description": "대모",
       "alcohol": 35,
       "ingredients": ["보드카", "디사론노"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "프렌치 커넥션",
@@ -45,7 +49,8 @@
       "description": "1971년 프렌치 커넥션",
       "alcohol": 35,
       "ingredients": ["꼬냑", "디사론노"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "블랙러시안",
@@ -54,7 +59,8 @@
       "description": "러시아에 가서 주문하면 안되요",
       "alcohol": 33,
       "ingredients": ["보드카", "깔루아"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "브랜디 알렉산더",
@@ -63,7 +69,8 @@
       "description": "1962년 술과 장미의 나날",
       "alcohol": 21.3,
       "ingredients": ["꼬냑", "카카오", "크림"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "코스모폴리탄",
@@ -72,7 +79,8 @@
       "description": "1998년 미드 섹스앤더시티",
       "alcohol": 20,
       "ingredients": ["보드카", "쿠앵트로", "라임", "크랜베리"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "진토닉",
@@ -81,7 +89,8 @@
       "description": "1973년 빌리 조엘의 피아노맨",
       "alcohol": 14.5,
       "ingredients": ["좋아하시는 취향을 말씀해주시면 진을 추천해드릴게용~"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "스칼렛 오하라",
@@ -90,7 +99,8 @@
       "description": "1939년 바람과 함께 사라지다",
       "alcohol": 13,
       "ingredients": ["서던컴포트", "크랜베리주스", "레몬"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "줄리엣",
@@ -99,7 +109,8 @@
       "description": "1968년 로미오와 줄리엣",
       "alcohol": 9,
       "ingredients": ["보드카", "카시스", "피치", "석류", "레몬", "사과"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "프렌치 키스",
@@ -108,7 +119,8 @@
       "description": "1995년 맥라이언 주연",
       "alcohol": 7.1,
       "ingredients": ["럼", "피치", "말리부", "석류", "레몬", "크랜베리"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     }
   ]
 }

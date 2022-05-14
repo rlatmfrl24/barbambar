@@ -18,7 +18,8 @@
         "레몬",
         "깔루아"
       ],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "롱 아일랜드 아이스 티",
@@ -36,7 +37,8 @@
         "레몬",
         "콜라"
       ],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "롱 비치 아이스티",
@@ -54,7 +56,8 @@
         "레몬",
         "크랜베리"
       ],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "아디오스 마더XX",
@@ -72,7 +75,8 @@
         "레몬",
         "스프라이트"
       ],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "도쿄 아이스 티",
@@ -90,7 +94,8 @@
         "레몬",
         "스프라이트"
       ],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "텍사스 티",
@@ -99,7 +104,8 @@
       "description": "데킬라만 듬뿍!!",
       "alcohol": 21,
       "ingredients": ["데킬라", "트리플섹", "라임", "레몬", "콜라"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     }
   ]
 }

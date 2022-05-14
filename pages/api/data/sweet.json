@@ -1,0 +1,116 @@
+{
+  "key": "sweet",
+  "title": "아... 단거 땡겨!",
+  "items": [
+    {
+      "name": "초콜릿 케이크",
+      "englishName": "Chocolate Cake",
+      "price": 1.5,
+      "description": "누... 누룽지?",
+      "alcohol": 30,
+      "ingredients": ["바닐라보드카", "프란젤리코"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "오르가즘",
+      "englishName": "Orgasm",
+      "price": 1.5,
+      "description": "느껴보쉴?",
+      "alcohol": 21,
+      "ingredients": ["깔루아", "베일리스", "아마레또"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "화이트 러시안",
+      "englishName": "White Russian",
+      "price": 1.7,
+      "description": "섞지말고 드셔보세요",
+      "alcohol": 20,
+      "ingredients": ["보드카", "깔루아", "크림"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "동해",
+      "englishName": "East Sea",
+      "price": 1.5,
+      "description": "Do you know East Sea?",
+      "alcohol": 15,
+      "ingredients": ["피치", "블루큐라소", "말리부", "라임", "스프라이트"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "블루 사파이어",
+      "englishName": "Blue Sapphire",
+      "price": 1.5,
+      "description": "몰디브 바다빛 청량감 있는 칵테일",
+      "alcohol": 9,
+      "ingredients": ["피치", "블루큐라소", "말리부", "라임", "스프라이트"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "발렌시아",
+      "englishName": "Valencia",
+      "price": 1.5,
+      "description": "오렌지로 유명한 스페인 동부에서 유래된 깊이있는 오렌지맛",
+      "alcohol": 0,
+      "ingredients": ["애프리콧브랜디", "오렌지"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "준벅",
+      "englishName": "June Bug",
+      "price": 1.6,
+      "description": "한국인이 가장 많이 마시는 칵테일 10위 안에 들어감",
+      "alcohol": 8,
+      "ingredients": ["미도리", "바나나", "말리부", "파인애플", "레몬"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "깔루아 밀크",
+      "englishName": "Kahlua Milk",
+      "price": 1.4,
+      "description": "",
+      "alcohol": 8,
+      "ingredients": ["깔루아", "우유"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "피나콜라다",
+      "englishName": "Pina Colada",
+      "price": 1.5,
+      "description": "파인애플이 무성한 언덕",
+      "alcohol": 6.9,
+      "ingredients": ["럼", "말리부", "피나믹스", "파인애플"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "데킬라 선라이즈",
+      "englishName": "Tequila Sunrise",
+      "price": 1.5,
+      "description": "그 유명한 데썬!",
+      "alcohol": 6.9,
+      "ingredients": ["데킬라", "오렌지", "석류"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "베일리스 밀크",
+      "englishName": "Baileys Milk",
+      "price": 1.5,
+      "description": "이것도 테이크아웃...",
+      "alcohol": 6.3,
+      "ingredients": ["베일리스", "밀크"],
+      "link": "",
+      "isModifiable": false
+    }
+  ]
+}

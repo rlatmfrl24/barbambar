@@ -9,7 +9,8 @@
       "description": "칵테일의 여왕",
       "alcohol": 37,
       "ingredients": ["버번", "앙고스투라", "스윗버무스"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "올드 패션드",
@@ -18,7 +19,8 @@
       "description": "누가 구닥다리라고 부르는가",
       "alcohol": 33.7,
       "ingredients": ["버번or라이", "앙고스투라", "설탕", "탄산수"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "라스트 워드",
@@ -27,7 +29,8 @@
       "description": "참 좋은 인생이었다.",
       "alcohol": 33.5,
       "ingredients": ["진", "샤르트뢰즈 그린", "마라스키노", "라임"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "뷰카레",
@@ -43,7 +46,8 @@
         "앙고스투라",
         "페이쇼드"
       ],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "불바디에",
@@ -52,7 +56,8 @@
       "description": "버번 좋아하는 사람들 집중!",
       "alcohol": 28,
       "ingredients": ["캄파리", "버번", "스윗베르뭇"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "네그로니",
@@ -61,7 +66,8 @@
       "description": "",
       "alcohol": 27.3,
       "ingredients": ["캄파리", "진", "스윗베르뭇"],
-      "link": ""
+      "link": "",
+      "isModifiable": true
     },
     {
       "name": "그래스호퍼",
@@ -70,7 +76,8 @@
       "description": "민트초코!!",
       "alcohol": 16,
       "ingredients": ["민트", "카카오", "크림"],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     },
     {
       "name": "라모스 진피즈",
@@ -89,7 +96,8 @@
         "바닐라빈",
         "탄산수"
       ],
-      "link": ""
+      "link": "",
+      "isModifiable": false
     }
   ]
 }

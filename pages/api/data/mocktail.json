@@ -1,0 +1,46 @@
+{
+  "key": "mocktail",
+  "title": "알콜이 없어요",
+  "items": [
+    {
+      "name": "샌프란시스코",
+      "englishName": "San Francisco",
+      "price": 1.3,
+      "description": "체리에이드 맛입니다.",
+      "alcohol": 0,
+      "ingredients": ["체리", "라임", "레몬", "스프라이트"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "골드메달리스트",
+      "englishName": "Gold Medalist",
+      "price": 1.3,
+      "description": "딸바! 금메달리스트 인정!",
+      "alcohol": 0,
+      "ingredients": ["딸기", "바나나", "석류", "피나믹스"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "버진 피나콜라다",
+      "englishName": "Virgin Pina Colada",
+      "price": 1.3,
+      "description": "감쪽같이 알콜만 빠져버림",
+      "alcohol": 0,
+      "ingredients": ["피나믹스", "파인애플"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "버진 모히토",
+      "englishName": "Virgin Mojito",
+      "price": 1.3,
+      "description": "요사장이 즐겨 마시는 칵테일",
+      "alcohol": 0,
+      "ingredients": ["제철과일 버진 모히토는 직원 문의"],
+      "link": "",
+      "isModifiable": false
+    }
+  ]
+}

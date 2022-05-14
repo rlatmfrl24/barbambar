@@ -1,0 +1,36 @@
+{
+  "key": "beer",
+  "title": "Beer",
+  "items": [
+    {
+      "name": "코로나",
+      "englishName": "Corona",
+      "price": 0.9,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "사무엘 아담스",
+      "englishName": "Samuel Adams",
+      "price": 0.9,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "기네스",
+      "englishName": "Guiness",
+      "price": 1.1,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "link": "",
+      "isModifiable": false
+    }
+  ]
+}

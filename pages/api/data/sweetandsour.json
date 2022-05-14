@@ -1,0 +1,122 @@
+{
+  "key": "sweetandsour",
+  "title": "새콤달콤",
+  "items": [
+    {
+      "name": "비즈니즈",
+      "englishName": "Bee's Knees",
+      "price": 1.8,
+      "description": "벌의 무릎 = 최상급의 것",
+      "alcohol": 27,
+      "ingredients": ["진", "꿀", "레몬"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "하와이안 펀치",
+      "englishName": "Hawaiian Punch",
+      "price": 1.5,
+      "description": "풍부한 하와이풍 열대과일향으로 기분전환",
+      "alcohol": 12,
+      "ingredients": [
+        "서던컴포트",
+        "아마레또",
+        "보드카",
+        "석류",
+        "오렌지",
+        "파인애플"
+      ],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "싱가폴 슬링",
+      "englishName": "Singapore Sling",
+      "price": 1.9,
+      "description": "엑조틱한 동양의 신비",
+      "alcohol": 11,
+      "ingredients": [
+        "진",
+        "체리히링",
+        "베네딕틴",
+        "쿠앵트로",
+        "파인애플",
+        "앙고스투라비터",
+        "라임",
+        "석류"
+      ],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "섹스 온더 비치",
+      "englishName": "Sex On The Beach",
+      "price": 1.5,
+      "description": "마셔본 사람 이쒀열? 해본 사람 이쒀열?",
+      "alcohol": 10,
+      "ingredients": ["카시스", "미도리", "보드카", "파인애플", "크랜베리"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "블루 하와이",
+      "englishName": "Blue Hawaii",
+      "price": 1.6,
+      "description": "파인애플이 달다고? 시다고?",
+      "alcohol": 9,
+      "ingredients": ["럼", "말리부", "블루큐라소", "라임", "파인애플"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "카시스 프라페",
+      "englishName": "Cassis Frappe",
+      "price": 1.5,
+      "description": "불호가 없는 맛",
+      "alcohol": 7,
+      "ingredients": ["카시스", "피치", "말리부", "오렌지", "레몬"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "그린피치",
+      "englishName": "Green Peach",
+      "price": 1.5,
+      "description": "요사장의 절친 선배 바텐더 마하의 시그니처",
+      "alcohol": 6,
+      "ingredients": ["미도리", "피치", "라임", "오렌지", "레몬"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "피치크러쉬",
+      "englishName": "Peach Crush",
+      "price": 1.4,
+      "description": "복숭아 좋아하는 싸람~!",
+      "alcohol": 5.4,
+      "ingredients": ["피치", "레몬", "크랜베리"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "미도리 사워",
+      "englishName": "Midori Sour",
+      "price": 1.4,
+      "description": "샤워 아님. 사워, 사와. 시큼하다... 그런 뜻이에요.",
+      "alcohol": 4,
+      "ingredients": ["미도리", "라임", "레몬"],
+      "link": "",
+      "isModifiable": false
+    },
+    {
+      "name": "옥보단",
+      "englishName": "Sex And Zen",
+      "price": 1.6,
+      "description": "옥보단 3D 본사람?",
+      "alcohol": 3.7,
+      "ingredients": ["피치", "말리부", "라임", "오렌지", "라임", "석류1"],
+      "link": "",
+      "isModifiable": false
+    }
+  ]
+}
