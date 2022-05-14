@@ -8,6 +8,7 @@ export type MenuItem = {
   alcohol: number;
   ingredients: string[];
   link: string;
+  isModifiable: boolean;
 };
 
 const MenuItemComponent: NextPage<MenuItem> = (item) => {
@@ -16,7 +17,10 @@ const MenuItemComponent: NextPage<MenuItem> = (item) => {
       <p className="flex flex-row justify-between gap-3 font-kor text-2xl">
         <span>{item.name}</span>
         <span className="font-exo">{item.englishName}</span>
-        <span className="flex flex-1 justify-end">{item.price}~</span>
+        <span className="flex flex-1 justify-end">
+          {item.price.toFixed(1)}
+          {item.isModifiable ? `~` : ``}
+        </span>
       </p>
       <p></p>
       <p className="flex flex-row justify-between">
