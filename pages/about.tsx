@@ -22,13 +22,13 @@ const About: NextPage = () => {
             />
           </div>
           <div className="flex flex-col justify-start lg:ml-10 md:ml-5 sm:ml-3 ml-3 flex-shrink-0">
-            <div className="flex justify-start font-kor font-extrabold lg:text-7xl md:text-5xl sm:text-4xl text-2xl">
+            <div className="flex justify-start font-kor_extrabold font-black lg:text-7xl md:text-5xl sm:text-4xl text-2xl">
               요사장
             </div>
-            <div className="flex justify-start font-kor lg:text-2xl md:text-2xl sm:text-xl text-sm">
+            <div className="flex justify-start font-kor lg:text-2xl sm:text-xl text-sm">
               칵테일 대중화를 꿈꾸는 바밤바의 사장
             </div>
-            <div className="flex justify-start font-kor lg:text-2xl md:text-2xl sm:text-xl text-sm">
+            <div className="flex justify-start font-kor lg:text-2xl sm:text-xl text-sm">
               영등포 바밤바 2011년 OPEN
             </div>
             <div className="flex flex-col lg:mt-7 mt-2 justify-center font-exo lg:text-6xl md:text-4xl sm:text-3xl">
