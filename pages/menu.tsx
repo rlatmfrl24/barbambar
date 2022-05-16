@@ -1,20 +1,20 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import MenuCategory from "../components/menu/category";
-import martini from "../pages/api/data/martini.json";
-import longtea from "../pages/api/data/longtea.json";
-import bartender from "../pages/api/data/bartender.json";
-import hemingway from "../pages/api/data/hemingway.json";
-import alcohol from "../pages/api/data/alcohol.json";
-import actor from "../pages/api/data/actor.json";
-import oneshot from "../pages/api/data/oneshot.json";
-import classic from "../pages/api/data/classic.json";
-import signature from "../pages/api/data/signature.json";
-import sweetandsour from "../pages/api/data/sweetandsour.json";
-import sweet from "../pages/api/data/sweet.json";
-import sour from "../pages/api/data/sour.json";
-import mocktail from "../pages/api/data/mocktail.json";
-import beer from "../pages/api/data/beer.json";
+import martini from "../pages/api/data/menu/martini.json";
+import longtea from "../pages/api/data/menu/longtea.json";
+import bartender from "../pages/api/data/menu/bartender.json";
+import hemingway from "../pages/api/data/menu/hemingway.json";
+import alcohol from "../pages/api/data/menu/alcohol.json";
+import actor from "../pages/api/data/menu/actor.json";
+import oneshot from "../pages/api/data/menu/oneshot.json";
+import classic from "../pages/api/data/menu/classic.json";
+import signature from "../pages/api/data/menu/signature.json";
+import sweetandsour from "../pages/api/data/menu/sweetandsour.json";
+import sweet from "../pages/api/data/menu/sweet.json";
+import sour from "../pages/api/data/menu/sour.json";
+import mocktail from "../pages/api/data/menu/mocktail.json";
+import beer from "../pages/api/data/menu/beer.json";
 
 const Menu: NextPage = () => {
   return (
