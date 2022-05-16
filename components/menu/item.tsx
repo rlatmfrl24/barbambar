@@ -14,7 +14,7 @@ export type MenuItem = {
 const MenuItemComponent: NextPage<MenuItem> = (item) => {
   return (
     <div className="m-3">
-      <p className="flex flex-row justify-between gap-3 font-kor text-2xl">
+      <p className="flex flex-row justify-between gap-3 font-pretend font-extrabold xl:text-2xl lg:text-xl">
         <span>{item.name}</span>
         <span className="font-exo">{item.englishName}</span>
         <span className="flex flex-1 justify-end">
@@ -25,9 +25,11 @@ const MenuItemComponent: NextPage<MenuItem> = (item) => {
       <p></p>
       <p className="flex flex-row justify-between">
         {item.description != "" ? (
-          <span className="flex-1 font-kor">{item.description}</span>
+          <span className="flex-1 font-pretend font-bold xl:text-base text-sm">
+            {item.description}
+          </span>
         ) : (
-          <span className="font-kor">
+          <span className="font-pretend">
             {item.ingredients.map((ingredient) => (
               <span>
                 {ingredient}
@@ -40,16 +42,16 @@ const MenuItemComponent: NextPage<MenuItem> = (item) => {
           </span>
         )}
         {item.alcohol > 0 ? (
-          <span className="flex-1 flex justify-end font-exo">
+          <span className="flex-0 flex justify-end font-exo xl:text-base text-xs">
             Alc. {item.alcohol}%
           </span>
         ) : (
           <></>
         )}
       </p>
-      <p>
+      <p className="leading-none">
         {item.ingredients.length > 0 && item.description != "" ? (
-          <span className="font-kor">
+          <span className="font-pretend lg:text-sm text-xs">
             {item.ingredients.map((ingredient) => (
               <span>
                 {ingredient}

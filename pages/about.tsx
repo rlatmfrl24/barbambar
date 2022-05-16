@@ -22,13 +22,13 @@ const About: NextPage = () => {
             />
           </div>
           <div className="flex flex-col justify-start lg:ml-10 md:ml-5 sm:ml-3 ml-3 flex-shrink-0">
-            <div className="flex justify-start font-kor_extrabold font-black lg:text-7xl md:text-5xl sm:text-4xl text-2xl">
+            <div className="flex justify-start font-pointkr font-black lg:text-7xl md:text-5xl sm:text-4xl text-2xl">
               요사장
             </div>
-            <div className="flex justify-start font-kor lg:text-2xl sm:text-xl text-sm">
+            <div className="flex justify-start font-pretend font-medium lg:text-2xl sm:text-xl text-sm">
               칵테일 대중화를 꿈꾸는 바밤바의 사장
             </div>
-            <div className="flex justify-start font-kor lg:text-2xl sm:text-xl text-sm">
+            <div className="flex justify-start font-pretend font-medium lg:text-2xl sm:text-xl text-sm">
               영등포 바밤바 2011년 OPEN
             </div>
             <div className="flex flex-col lg:mt-7 mt-2 justify-center font-exo lg:text-6xl md:text-4xl sm:text-3xl">
@@ -42,7 +42,7 @@ const About: NextPage = () => {
           <div className="absolute bg-gray-100 px-3 font-exo text-3xl text-red-600 -top-5 ">
             BAR BAM BAR RULES
           </div>
-          <div className="flex-1 gap-1 lg:my-8 my-2 pt-5 px-5">
+          <div className="flex-1 gap-1 lg:my-8 my-2 pt-5 lg:px-10 px-5">
             <RulesLine text="만취하신 분은 돌려보냅니다. 손님과 저를 위한 일이니 기분 상해하지 마세요." />
             <RulesLine text="외부음식물 반입 금지입니다." />
             <RulesLine text="고양이에게 사람 먹는 음식을 주시는 분에게는 고양이 사료 먹여드립니다." />
@@ -60,7 +60,7 @@ const About: NextPage = () => {
           <div className="absolute bg-gray-100 px-3 font-exo text-3xl text-red-600 -top-5 ">
             BAR BAM BAR FAQ
           </div>
-          <div className="flex-1 gap-1 lg:my-8 pt-5 px-5">
+          <div className="flex-1 gap-1 lg:my-8 pt-5 lg:px-10 px-5">
             <QuestionLine text="가게 이름이 바밤바인 이유는?" />
             <AnswerLine
               text={[

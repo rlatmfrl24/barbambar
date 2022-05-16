@@ -22,21 +22,61 @@ const Menu: NextPage = () => {
       <Head>
         <title>Menu</title>
       </Head>
-      <div className="container py-5 lg:grid lg:grid-cols-2 gap-10">
-        <MenuCategory title={martini.title} items={martini.items} />
-        <MenuCategory title={longtea.title} items={longtea.items} />
-        <MenuCategory title={bartender.title} items={bartender.items} />
-        <MenuCategory title={hemingway.title} items={hemingway.items} />
-        <MenuCategory title={actor.title} items={actor.items} />
-        <MenuCategory title={classic.title} items={classic.items} />
-        <MenuCategory title={oneshot.title} items={oneshot.items} />
-        <MenuCategory title={alcohol.title} items={alcohol.items} />
-        <MenuCategory title={signature.title} items={signature.items} />
-        <MenuCategory title={sweetandsour.title} items={sweetandsour.items} />
-        <MenuCategory title={sweet.title} items={sweet.items} />
-        <MenuCategory title={sour.title} items={sour.items} />
-        <MenuCategory title={mocktail.title} items={mocktail.items} />
-        <MenuCategory title={beer.title} items={beer.items} />
+      <div className="container p-5 lg:grid lg:grid-cols-2 gap-10">
+        <MenuCategory
+          key={martini.key}
+          title={martini.title}
+          items={martini.items}
+        />
+        <MenuCategory
+          key={longtea.key}
+          title={longtea.title}
+          items={longtea.items}
+        />
+        <MenuCategory
+          key={bartender.key}
+          title={bartender.title}
+          items={bartender.items}
+        />
+        <MenuCategory
+          key={hemingway.key}
+          title={hemingway.title}
+          items={hemingway.items}
+        />
+        <MenuCategory key={actor.key} title={actor.title} items={actor.items} />
+        <MenuCategory
+          key={classic.key}
+          title={classic.title}
+          items={classic.items}
+        />
+        <MenuCategory
+          key={oneshot.key}
+          title={oneshot.title}
+          items={oneshot.items}
+        />
+        <MenuCategory
+          key={alcohol.key}
+          title={alcohol.title}
+          items={alcohol.items}
+        />
+        <MenuCategory
+          key={signature.key}
+          title={signature.title}
+          items={signature.items}
+        />
+        <MenuCategory
+          key={sweetandsour.key}
+          title={sweetandsour.title}
+          items={sweetandsour.items}
+        />
+        <MenuCategory key={sweet.key} title={sweet.title} items={sweet.items} />
+        <MenuCategory key={sour.key} title={sour.title} items={sour.items} />
+        <MenuCategory
+          key={mocktail.key}
+          title={mocktail.title}
+          items={mocktail.items}
+        />
+        <MenuCategory key={beer.key} title={beer.title} items={beer.items} />
       </div>
     </div>
   );

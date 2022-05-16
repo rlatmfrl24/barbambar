@@ -18,13 +18,13 @@ const Landing: NextPage = () => {
             </span>
           </div>
           <div>
-            <span className="bg-black pr-3 pl-3 pt-3 pb-2 font-kor_extrabold lg:text-6xl text-3xl  text-white">
+            <span className="bg-black pr-3 pl-3 pt-3 pb-2 font-pointkr lg:text-6xl text-3xl  text-white">
               고양이와 함께하는 바
             </span>
           </div>
         </div>
       </div>
-      <div className="h-1/6 flex flex-col justify-center align-middle text-center font-kor bg-black text-white">
+      <div className="h-1/6 flex flex-col justify-center align-middle text-center font-pretend bg-black text-white">
         <span className="text-base font-bold lg:text-xl">
           서울시 영등포구 영중로4길 25-1(영등포동3가 23-8) 2층
         </span>

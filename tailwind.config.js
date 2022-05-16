@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     fontFamily: {
       exo: ["Exo", "sans-serif"],
-      kor_extrabold: ["Do Hyeon", "sans-serif"],
-      kor: ["Pretendard", "sans-serif"],
+      pointkr: ["Do Hyeon", "sans-serif"],
+      pretend: ["Pretendard", "sans-serif"],
     },
     extend: {},
   },

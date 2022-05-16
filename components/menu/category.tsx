@@ -9,8 +9,10 @@ type ItemProps = {
 
 const MenuCategory: NextPage<ItemProps> = ({ title, items }) => {
   return (
-    <div>
-      <div className="font-kor text-4xl border-b-4 border-black">{title}</div>
+    <div className="">
+      <div className="font-pretend font-black pb-1 2xl:text-4xl xl:text-3xl text-2xl border-b-4 border-black">
+        {title}
+      </div>
       {items.map((item, index) => (
         <MenuItemComponent key={index} {...item} />
       ))}
