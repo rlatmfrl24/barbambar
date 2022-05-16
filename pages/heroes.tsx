@@ -10,11 +10,12 @@ const Heroes: NextPage = () => {
         <title>Heros</title>
       </Head>
       <div className="container ">
-        <div className="font-exo text-8xl text-white bg-black p-10 my-5">
-          <p>Do You Know</p>
-          <p className="text-right">BarBamBar Heros?</p>
+        <div className="flex justify-center font-exo xl:text-8xl lg:text-7xl md:text-6xl text-3xl text-white bg-black md:p-10 p-5 my-5 mx-3">
+          <p>
+            Do You Know <br /> &nbsp;&nbsp;&nbsp;&nbsp; BarBamBar Heroes?
+          </p>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2">
           {heroesData.map((hero, index) => (
             <Hero key={index} {...hero} />
           ))}

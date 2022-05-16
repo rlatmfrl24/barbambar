@@ -13,14 +13,14 @@ export type HeroType = {
 const Hero: NextPage<HeroType> = (data) => {
   return (
     <div className="flex flex-1 flex-row p-5">
-      <div className="flex-0 mr-5">
+      <div className="flex-1 mr-5">
         <Image
           className="rounded-full"
           src={data.profile}
           alt="bam"
           height={200}
           width={200}
-          layout="intrinsic"
+          layout="responsive"
           objectFit="cover"
         ></Image>
       </div>
@@ -32,7 +32,7 @@ const Hero: NextPage<HeroType> = (data) => {
             {data.kind} / {data.gender}
           </p>
         </div>
-        <div className="flex flex-1 flex-col mt-5">
+        <div className="flex flex-1 flex-col justify-center">
           {data.description.map((description, idx) => (
             <div key={idx}>• {description}</div>
           ))}
