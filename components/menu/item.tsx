@@ -30,8 +30,8 @@ const MenuItemComponent: NextPage<MenuItem> = (item) => {
           </span>
         ) : (
           <span className="font-pretend">
-            {item.ingredients.map((ingredient) => (
-              <span>
+            {item.ingredients.map((ingredient, index) => (
+              <span key={index}>
                 {ingredient}
                 {item.ingredients.length - 1 !=
                 item.ingredients.indexOf(ingredient)
@@ -52,8 +52,8 @@ const MenuItemComponent: NextPage<MenuItem> = (item) => {
       <p className="leading-none">
         {item.ingredients.length > 0 && item.description != "" ? (
           <span className="font-pretend lg:text-sm text-xs">
-            {item.ingredients.map((ingredient) => (
-              <span>
+            {item.ingredients.map((ingredient, index) => (
+              <span key={index}>
                 {ingredient}
                 {item.ingredients.length - 1 !=
                 item.ingredients.indexOf(ingredient)
