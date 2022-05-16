@@ -8,7 +8,7 @@
     "description": ["수원에서 입양", "개 같은 성격"]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/star.png",
     "name": "별",
     "birth": "2013년 6월생",
     "gender": "공주",
@@ -16,7 +16,7 @@
     "description": ["아빠가 손으로 직접 떠주는 물만 좋아하는 아빠바라기"]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "달",
     "birth": "2014년 6월생",
     "gender": "공주",
@@ -24,7 +24,7 @@
     "description": ["출근할 때 온몸을 바쳐 막아서는 애교쟁이"]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "꿈",
     "birth": "2014년 7월생",
     "gender": "왕자",
@@ -32,7 +32,7 @@
     "description": ["'크다', '뚱뚱하다' 말하기전에 거울 먼저 보고와라냥"]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "강",
     "birth": "2015년 6월생",
     "gender": "공주",
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "설",
     "birth": "2016년 2월생",
     "gender": "공주",
@@ -55,7 +55,7 @@
     ]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "들",
     "birth": "2016년 8월생",
     "gender": "왕자",
@@ -63,7 +63,7 @@
     "description": ["강의 첫째 아들", "눈물 연기 가능"]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "산",
     "birth": "2016년 8월생",
     "gender": "왕자",
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/mandarine.png",
     "name": "귤",
     "birth": "2018년 1월생",
     "gender": "왕자",
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "빛",
     "birth": "2016년 3월생",
     "gender": "왕자",
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "람",
     "birth": "2017년 1월생",
     "gender": "왕자",
@@ -107,7 +107,7 @@
     ]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "콩",
     "birth": "2018년 6월생",
     "gender": "왕자",
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "profile": "/img/bam.png",
+    "profile": "/img/hero_placeholder.png",
     "name": "비",
     "birth": "2017년 5월생",
     "gender": "공주",
