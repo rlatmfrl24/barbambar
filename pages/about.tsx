@@ -13,8 +13,9 @@ const About: NextPage = () => {
       </Head>
       <div className="flex flex-col text-center lg:m-10 m-4 ">
         <div className="flex flex-auto justify-center p-5">
-          <div className="relative lg:w-72 md:w-52 sm:w-44 w-32">
+          <div className="relative lg:w-72 md:w-52 sm:w-44 w-32 ">
             <Image
+              className="rounded-full"
               src="/img/yosi_wink.jpg"
               alt="yosi_heroine"
               layout="fill"
