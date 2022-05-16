@@ -1,0 +1,131 @@
+[
+  {
+    "profile": "/img/bam.png",
+    "name": "밤",
+    "birth": "2012년 7월생",
+    "gender": "왕자",
+    "kind": "노르웨이 숲",
+    "description": ["수원에서 입양", "개 같은 성격"]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "별",
+    "birth": "2013년 6월생",
+    "gender": "공주",
+    "kind": "브리티쉬 숏헤어+스코티쉬 폴드",
+    "description": ["아빠가 손으로 직접 떠주는 물만 좋아하는 아빠바라기"]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "달",
+    "birth": "2014년 6월생",
+    "gender": "공주",
+    "kind": "아비시니안",
+    "description": ["출근할 때 온몸을 바쳐 막아서는 애교쟁이"]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "꿈",
+    "birth": "2014년 7월생",
+    "gender": "왕자",
+    "kind": "러시안 블루",
+    "description": ["'크다', '뚱뚱하다' 말하기전에 거울 먼저 보고와라냥"]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "강",
+    "birth": "2015년 6월생",
+    "gender": "공주",
+    "kind": "뱅갈",
+    "description": [
+      "산이 들이의 엄마",
+      "외모와 마음만큼은 소녀",
+      "캣휠타는게 제일 좋아!"
+    ]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "설",
+    "birth": "2016년 2월생",
+    "gender": "공주",
+    "kind": "아메리칸 숏 헤어 믹스",
+    "description": [
+      "노량진 쓰레기통에서 구조",
+      "아빠한테 엉덩이 그루밍을 자꾸 요구함"
+    ]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "들",
+    "birth": "2016년 8월생",
+    "gender": "왕자",
+    "kind": "뱅갈",
+    "description": ["강의 첫째 아들", "눈물 연기 가능"]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "산",
+    "birth": "2016년 8월생",
+    "gender": "왕자",
+    "kind": "뱅갈",
+    "description": [
+      "강의 막내아들",
+      "입에 욕을 달고 다님",
+      "최근 들이로부터 서열 1위자리를 빼앗음"
+    ]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "귤",
+    "birth": "2018년 1월생",
+    "gender": "왕자",
+    "kind": "코리안 숏헤어",
+    "description": [
+      "한겨울에 영등포 먹자골목 길에서 온몸이 굳은채 발견되어 구조"
+    ]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "빛",
+    "birth": "2016년 3월생",
+    "gender": "왕자",
+    "kind": "코리안 숏헤어",
+    "description": [
+      "원당감자탕 건물 사이에서 구조",
+      "롱다리에 뽀뽀를 무진장 좋아하는 애교쟁이"
+    ]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "람",
+    "birth": "2017년 1월생",
+    "gender": "왕자",
+    "kind": "코리안 숏헤어",
+    "description": [
+      "원당감자탕 건물 사이에서 구조",
+      "엄마의 사랑을 독차지할수만 있다면 깡패도 될수 있음"
+    ]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "콩",
+    "birth": "2018년 6월생",
+    "gender": "왕자",
+    "kind": "코리안 숏헤어",
+    "description": [
+      "영등포 고시원 주차장에서 보살피던 길냥이의 새끼",
+      "한쪽 눈 실명으로 구조"
+    ]
+  },
+  {
+    "profile": "/img/bam.png",
+    "name": "비",
+    "birth": "2017년 5월생",
+    "gender": "공주",
+    "kind": "코리안 숏헤어",
+    "description": [
+      "영등포 할리스 뒤편에서 구조",
+      "2018년 04월 11일 건식 복막염으로 고양이 별로 돌아감"
+    ]
+  }
+]
