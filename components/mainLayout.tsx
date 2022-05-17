@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import NavBar from "./navbar";
 
 type AppLayoutProps = {

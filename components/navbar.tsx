@@ -35,6 +35,12 @@ const NavBar: NextPage = () => {
           >
             HEROS
           </a>
+          <a
+            href="contact"
+            className="font-exo font-semibold block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-200 mr-4"
+          >
+            CONTACT
+          </a>
         </div>
         <div className="flex mt-3 lg:mt-0">
           <Link href="https://www.youtube.com/channel/UCzww46F6Cjj_I751OtLSXSQ">

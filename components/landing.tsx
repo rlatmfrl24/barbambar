@@ -13,14 +13,24 @@ const Landing: NextPage = () => {
         />
         <div className="absolute text-center flex flex-col">
           <div className="lg:mb-10 m-5">
-            <span className="bg-black pl-5 pr-5 font-exo lg:text-8xl text-5xl  text-white">
+            <span className="bg-black px-5 font-exo lg:text-8xl text-5xl  text-white">
               BarBamBar
             </span>
           </div>
-          <div>
-            <span className="bg-black pr-3 pl-3 pt-3 pb-2 font-pointkr lg:text-6xl text-3xl  text-white">
+          <div className="mt-2">
+            <span className="bg-black p-2 font-pointkr leading-none lg:text-6xl text-3xl text-white">
               고양이와 함께하는 바
             </span>
+          </div>
+          <div className="mt-5 inline-flex flex-col self-center">
+            <div className="grid grid-cols-[0fr_0fr_1fr] bg-black text-white font-pretend font-bold lg:text-xl text-base py-1 px-2">
+              <div className="flex justify-start">TUE~FRI</div>
+              <div>&nbsp;:&nbsp;</div>
+              <div className="flex justify-end">18:00 ~ 01:00</div>
+              <div className="flex justify-start">SAT~SUN</div>
+              <div>&nbsp;:&nbsp;</div>
+              <div className="flex justify-end">17:00 ~ 01:00</div>
+            </div>
           </div>
         </div>
       </div>
