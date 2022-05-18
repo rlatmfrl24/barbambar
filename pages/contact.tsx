@@ -43,8 +43,8 @@ const Contact: NextPage = () => {
       <Head>
         <title>Contact</title>
       </Head>
-      <div className="flex flex-col flex-wrap gap-3">
-        <div className="flex flex-col justify-center items-start font-exo">
+      <div className="flex flex-col flex-wrap gap-3 h-full justify-center">
+        <div className="flex flex-col justify-center items-center font-exo">
           <p className="lg:text-7xl md:text-6xl sm:text-5xl text-4xl">
             Contact to
           </p>
@@ -97,7 +97,7 @@ const Contact: NextPage = () => {
           </p>
         )}
       </div>
-      <div className="fixed bottom-0 mb-10 font-pretend font-bold font-sm">
+      <div className="flex items-center bottom-0 my-10 font-pretend font-bold font-sm">
         버그 및 수정 문의 : 397love@gmail.com
       </div>
     </div>
