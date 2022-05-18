@@ -82,7 +82,7 @@ const Contact: NextPage = () => {
         {!showPhoneNum && (
           <p
             id="phone_num_for_pc"
-            className="flex justify-center items-center gap-2 mt-10 font-exo text-2xl"
+            className="flex  justify-center items-center gap-2 mt-10 font-exo text-2xl"
           >
             <Image
               src="/img/call.svg"
@@ -94,6 +94,9 @@ const Contact: NextPage = () => {
             <span>02-3667-7678</span>
           </p>
         )}
+      </div>
+      <div className="fixed bottom-0 mb-10 font-pretend font-bold font-sm">
+        버그 및 수정 문의 : 397love@gmail.com
       </div>
     </div>
   );

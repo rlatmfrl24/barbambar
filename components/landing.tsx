@@ -34,11 +34,14 @@ const Landing: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="h-1/6 flex flex-col justify-center align-middle text-center font-pretend bg-black text-white">
-        <span className="text-base font-bold lg:text-xl">
+      <div className="h-1/5 flex flex-col justify-center align-middle text-center font-pretend bg-black text-white">
+        <span className="text-base mb-2 font-bold lg:text-xl">
           서울시 영등포구 영중로4길 25-1(영등포동3가 23-8) 2층
         </span>
         <span>이 사이트는 바밤바 공식 사이트가 아닌 팬 사이트입니다</span>
+        <span className="flex justify-center sm:flex-row flex-col text-xs sm:gap-2">
+          <span>Copyright © 2022 BarBamBar. All rights reserved</span>
+        </span>
       </div>
     </div>
   );
