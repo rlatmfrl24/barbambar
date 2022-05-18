@@ -9,7 +9,7 @@
       "description": "도수높고 상큼한게 땡긴다면..",
       "alcohol": 31.1,
       "ingredients": ["꼬냑", "쿠앵트로", "레몬"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -19,7 +19,7 @@
       "description": "1949년 미국 칵테일 콘테스트 입선작",
       "alcohol": 24,
       "ingredients": ["데킬라", "쿠앵트로", "라임", "레몬"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -29,7 +29,7 @@
       "description": "마티니말고 이거 드세요",
       "alcohol": 23,
       "ingredients": ["진", "라임", "설탕"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -39,7 +39,7 @@
       "description": "미쿡사람들이 마시는 레몬에이드",
       "alcohol": 14,
       "ingredients": ["잭다니엘", "트리플섹", "레몬", "탄산수"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -49,7 +49,7 @@
       "description": "바텐더의 손맛을 느낄 수 있는 칵테일",
       "alcohol": 13,
       "ingredients": ["진", "레몬", "설탕"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     }
   ]

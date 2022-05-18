@@ -9,7 +9,7 @@
       "description": "체리에이드 맛입니다.",
       "alcohol": 0,
       "ingredients": ["체리", "라임", "레몬", "스프라이트"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -19,7 +19,7 @@
       "description": "딸바! 금메달리스트 인정!",
       "alcohol": 0,
       "ingredients": ["딸기", "바나나", "석류", "피나믹스"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -29,7 +29,7 @@
       "description": "감쪽같이 알콜만 빠져버림",
       "alcohol": 0,
       "ingredients": ["피나믹스", "파인애플"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -39,7 +39,7 @@
       "description": "요사장이 즐겨 마시는 칵테일",
       "alcohol": 0,
       "ingredients": ["제철과일 버진 모히토는 직원 문의"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     }
   ]

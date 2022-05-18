@@ -9,7 +9,7 @@
       "description": "한잔은 무조건 마셔봐야겠쥬?",
       "alcohol": 21,
       "ingredients": ["잭다니엘", "피치", "바나나", "라임"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -19,7 +19,7 @@
       "description": "기존의 모히토와는 다르다!",
       "alcohol": 11,
       "ingredients": ["럼", "라임", "설탕", "민트"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -29,7 +29,7 @@
       "description": "바밤바에서 알바하고 승무원 취직한 춘홍이를 기념하며",
       "alcohol": 8,
       "ingredients": ["체리", "애플퍼커", "레몬", "키위"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -39,7 +39,7 @@
       "description": "리치의 화려한 맛 뒤에 조용히 숨어있는 녹색...",
       "alcohol": 8,
       "ingredients": ["리치", "애플퍼커", "트리플섹", "라임", "사과", "키위"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -49,7 +49,7 @@
       "description": "바밤바 단골 아름이를 기념하여... 내 이름 아름이다 손!",
       "alcohol": 5.9,
       "ingredients": ["보드카", "파인애플", "패션프룻", "오렌지"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -59,7 +59,7 @@
       "description": "코알라를 닮은 단골 다혜를 기념하며... 내 이름 다혜다 손!",
       "alcohol": 5.7,
       "ingredients": ["리치", "블루큐라소", "라임", "레몬", "스프라이트"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -69,7 +69,7 @@
       "description": "근처 피자가게 사장이 마셔보고 맛있다고 소리질러서 창피했어요",
       "alcohol": 5,
       "ingredients": ["바나나", "바나나", "피나믹스"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -79,7 +79,7 @@
       "description": "스크류바 맛 칵테일",
       "alcohol": 2,
       "ingredients": ["딸기", "애플퍼커", "레몬", "레몬"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -89,7 +89,7 @@
       "description": "알콜 추가 환영",
       "alcohol": 0,
       "ingredients": ["레몬", "라임", "레몬"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -99,7 +99,7 @@
       "description": "알콜 추가 쌉가능",
       "alcohol": 0,
       "ingredients": ["파인애플", "패션프룻", "석류", "피나믹스"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     }
   ]

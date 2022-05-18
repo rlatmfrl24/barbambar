@@ -9,7 +9,7 @@
       "description": "신중하게 선택하세요. 기절시 119 출동!!",
       "alcohol": 48,
       "ingredients": ["151", "위스키", "데킬라", "꼬냑/머리아픈맛"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -19,7 +19,7 @@
       "description": "불을 이용해서 만들어드려요. 인스타 갬성",
       "alcohol": 46,
       "ingredients": ["151", "카시스", "피치"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -29,7 +29,7 @@
       "description": "전율을 느끼고 싶다면...",
       "alcohol": 44,
       "ingredients": ["151", "디사론노", "라임"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -39,7 +39,7 @@
       "description": "한모금 마시고 앞 사람에게 후~불면 따귀 혹은 키스",
       "alcohol": 36,
       "ingredients": ["서던컴포트", "아마레또"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -49,7 +49,7 @@
       "description": "'인간은 노력하는 한 방황한다' 괴테",
       "alcohol": 34,
       "ingredients": ["151", "카시스", "피치", "말리부", "라임주스"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -59,7 +59,7 @@
       "description": "태평양 전쟁이 끝나고 미국에서 탄생한 칵테일",
       "alcohol": 30,
       "ingredients": ["보드카", "쿠앵트로", "라임"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -69,7 +69,7 @@
       "description": "평범한 오르가즘 만으로는 부족한 당신께.",
       "alcohol": 26,
       "ingredients": ["보드카", "깔루아", "베일리스", "아마레또"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     }
   ]

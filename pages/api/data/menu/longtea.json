@@ -18,7 +18,7 @@
         "레몬",
         "깔루아"
       ],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -37,7 +37,7 @@
         "레몬",
         "콜라"
       ],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -56,7 +56,7 @@
         "레몬",
         "크랜베리"
       ],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -75,7 +75,7 @@
         "레몬",
         "스프라이트"
       ],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -94,7 +94,7 @@
         "레몬",
         "스프라이트"
       ],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -104,7 +104,7 @@
       "description": "데킬라만 듬뿍!!",
       "alcohol": 21,
       "ingredients": ["데킬라", "트리플섹", "라임", "레몬", "콜라"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     }
   ]

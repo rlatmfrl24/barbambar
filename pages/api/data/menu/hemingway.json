@@ -9,7 +9,7 @@
       "description": "내 다이키리는 엘 플로리디타에서",
       "alcohol": 22,
       "ingredients": ["럼", "라임", "설탕"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -19,7 +19,7 @@
       "description": "당뇨가 있었던 헤밍웨이만의 레시피!",
       "alcohol": 21,
       "ingredients": ["럼", "마라스키노", "라임", "자몽"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -29,7 +29,7 @@
       "description": "비바! 쿠바 리브레!(쿠바 독립 만세!)",
       "alcohol": 13,
       "ingredients": ["럼", "콜라", "라임"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     },
     {
@@ -39,7 +39,7 @@
       "description": "내 모히토는 라 보데기타에서",
       "alcohol": 11,
       "ingredients": ["제철 과일 모히토는 직원 문의!!"],
-      "link": "",
+      "youtubeId": "",
       "isModifiable": false
     }
   ]
