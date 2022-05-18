@@ -1,7 +1,12 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Collapse from "@mui/material/Collapse";
+import { useState } from "react";
 
 const Landing: NextPage = () => {
+  const [isClose, setIsClose] = useState(true);
+  const toggle = () => setIsClose(!isClose);
+
   return (
     <div className="flex flex-col flex-1">
       <div className="relative flex h-full flex-col items-center justify-center">
@@ -12,21 +17,24 @@ const Landing: NextPage = () => {
           objectFit="cover"
         />
         <div className="absolute top-0 bg-red-600 font-pretend font-bold w-full text-center">
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center flex-1 flex-col sm:flex-row">
-              <span>한정판 요사장 글랜캐런 코피타 글래스 판매중!</span>
-              <span>문의는 DM 및 전화로!</span>
+          <Collapse in={isClose}>
+            <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center flex-1 flex-col sm:flex-row">
+                <span>한정판 요사장 글랜캐런 코피타 글래스 판매중!&nbsp;</span>
+                <span>문의는 DM 및 전화로!</span>
+              </div>
+              <div className="flex-0 w-7 cursor-pointer" onClick={toggle}>
+                <Image
+                  src="/img/close.svg"
+                  height={24}
+                  width={24}
+                  layout="responsive"
+                />
+              </div>
             </div>
-            <div className="flex-0 w-7 cursor-pointer">
-              <Image
-                src="/img/close.svg"
-                height={24}
-                width={24}
-                layout="responsive"
-              />
-            </div>
-          </div>
+          </Collapse>
         </div>
+
         <div className="absolute text-center flex flex-col">
           <div className="lg:mb-10 m-5">
             <span className="bg-black px-5 font-exo lg:text-8xl text-5xl  text-white">
