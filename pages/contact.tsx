@@ -62,7 +62,7 @@ const Contact: NextPage = () => {
             <ContactButton
               title="Call"
               imgpath="/img/call.svg"
-              link="tel:010-5245-5245"
+              link="tel:02-3667-7678"
             />
           )}
 
@@ -91,7 +91,7 @@ const Contact: NextPage = () => {
               layout="intrinsic"
               objectFit="cover"
             />
-            <span>02-835-5487</span>
+            <span>02-3667-7678</span>
           </p>
         )}
       </div>
