@@ -1,4 +1,6 @@
 import { NextPage } from "next";
+import Image from "next/image";
+import Link from "next/link";
 
 export type MenuItem = {
   name: string;
@@ -17,6 +19,16 @@ const MenuItemComponent: NextPage<MenuItem> = (item) => {
       <p className="flex flex-row justify-between gap-3 font-pretend font-extrabold xl:text-2xl lg:text-xl">
         <span>{item.name}</span>
         <span className="font-exo">{item.englishName}</span>
+        <span className="w-7 flex items-center">
+          {item.link !== "" && (
+            <Image
+              src="/img/youtube_black.png"
+              height={22}
+              width={30}
+              layout="intrinsic"
+            />
+          )}
+        </span>
         <span className="flex flex-1 justify-end">
           {item.price.toFixed(1)}
           {item.isModifiable ? `~` : ``}
