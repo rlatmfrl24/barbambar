@@ -15,6 +15,7 @@ const Landing: NextPage = () => {
           priority={true}
           layout="fill"
           objectFit="cover"
+          alt="barbambar"
         />
         <div className="absolute top-0 bg-red-600 font-pretend font-bold w-full text-center">
           <Collapse in={isClose}>
@@ -29,6 +30,7 @@ const Landing: NextPage = () => {
                   height={24}
                   width={24}
                   layout="responsive"
+                  alt="close"
                 />
               </div>
             </div>

@@ -33,8 +33,8 @@ const About: NextPage = () => {
               영등포 바밤바 2011년 OPEN
             </div>
             <div className="flex flex-col lg:mt-7 mt-2 justify-center font-exo lg:text-6xl md:text-4xl sm:text-3xl">
-              <span className="mr-12">"I want to be friends</span>
-              <span className="flex justify-end">with YOU!"</span>
+              <span className="mr-12">&quot;I want to be friends</span>
+              <span className="flex justify-end">with YOU!&quot;</span>
             </div>
           </div>
         </div>
