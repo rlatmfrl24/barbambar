@@ -11,6 +11,22 @@ const Landing: NextPage = () => {
           layout="fill"
           objectFit="cover"
         />
+        <div className="absolute top-0 bg-red-600 font-pretend font-bold w-full text-center">
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center flex-1 flex-col sm:flex-row">
+              <span>한정판 요사장 글랜캐런 코피타 글래스 판매중!</span>
+              <span>문의는 DM 및 전화로!</span>
+            </div>
+            <div className="flex-0 w-7 cursor-pointer">
+              <Image
+                src="/img/close.svg"
+                height={24}
+                width={24}
+                layout="responsive"
+              />
+            </div>
+          </div>
+        </div>
         <div className="absolute text-center flex flex-col">
           <div className="lg:mb-10 m-5">
             <span className="bg-black px-5 font-exo lg:text-8xl text-5xl  text-white">
