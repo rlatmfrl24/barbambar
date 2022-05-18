@@ -34,7 +34,12 @@ export default function MainLayout({ children }: AppLayoutProps) {
           className="fixed lg:bottom-10 lg:right-10 bottom-5 right-5 bg-gray-400 px-2 pt-2 pb-1 rounded-full opacity-60 cursor-pointer hover:opacity-80"
           onClick={scrollToTop}
         >
-          <Image src="/img/arrow_upward.svg" height={32} width={32} />
+          <Image
+            src="/img/arrow_upward.svg"
+            height={32}
+            width={32}
+            alt="scrollToTop"
+          />
         </div>
       )}
     </div>

@@ -17,11 +17,11 @@ const Hero: NextPage<HeroType> = (data) => {
         <Image
           className="rounded-full"
           src={data.profile}
-          alt="bam"
           height={200}
           width={200}
           layout="responsive"
           objectFit="cover"
+          alt={data.name}
         ></Image>
       </div>
       <div className="flex flex-col flex-1 font-pretend py-3">

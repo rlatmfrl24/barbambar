@@ -6,13 +6,12 @@ const NavBar: NextPage = () => {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-black p-4">
       <div className="flex items-center flex-shrink-0 text-white mr-20">
-        <Image src="/img/cat.png" width={24} height={24} />
-        <a
-          href="/"
-          className="font-exo font-extrabold text-2xl tracking-tight ml-3 cursor-pointer"
-        >
-          BarBamBar
-        </a>
+        <Image src="/img/cat.png" width={24} height={24} alt="cat-icon" />
+        <Link href="/">
+          <a className="font-exo font-extrabold text-2xl tracking-tight ml-3 cursor-pointer">
+            BarBamBar
+          </a>
+        </Link>
       </div>
 
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
@@ -48,7 +47,12 @@ const NavBar: NextPage = () => {
               className="cursor-pointer m-2 items-center flex"
               target={`_blank`}
             >
-              <Image src={`/img/youtube.png`} width={24} height={24} />
+              <Image
+                src={`/img/youtube.png`}
+                width={24}
+                height={24}
+                alt="youtube"
+              />
             </a>
           </Link>
           <Link href="https://www.instagram.com/yosajangtv/">
@@ -56,7 +60,12 @@ const NavBar: NextPage = () => {
               className="cursor-pointer m-2 items-center flex"
               target={"_blank"}
             >
-              <Image src={`/img/instagram.png`} width={24} height={24} />
+              <Image
+                src={`/img/instagram.png`}
+                width={24}
+                height={24}
+                alt="instagram"
+              />
             </a>
           </Link>
         </div>

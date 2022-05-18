@@ -24,6 +24,7 @@ const ContactButton: NextPage<ContactData> = ({ title, imgpath, link }) => {
           height={32}
           layout="intrinsic"
           objectFit="cover"
+          alt="contact"
         />
         {title}
       </a>
@@ -90,6 +91,7 @@ const Contact: NextPage = () => {
               height={24}
               layout="intrinsic"
               objectFit="cover"
+              alt="call"
             />
             <span>02-3667-7678</span>
           </p>
