@@ -19,7 +19,7 @@
       "description": "느껴보쉴?",
       "alcohol": 21,
       "ingredients": ["깔루아", "베일리스", "아마레또"],
-      "youtubeId": "",
+      "youtubeId": "f96m2US6giE",
       "isModifiable": false
     },
     {
@@ -39,7 +39,7 @@
       "description": "Do you know East Sea?",
       "alcohol": 15,
       "ingredients": ["피치", "블루큐라소", "말리부", "라임", "스프라이트"],
-      "youtubeId": "",
+      "youtubeId": "rwcAwiZ3jTA",
       "isModifiable": false
     },
     {
@@ -69,7 +69,7 @@
       "description": "한국인이 가장 많이 마시는 칵테일 10위 안에 들어감",
       "alcohol": 8,
       "ingredients": ["미도리", "바나나", "말리부", "파인애플", "레몬"],
-      "youtubeId": "",
+      "youtubeId": "cuMCLJx949Q",
       "isModifiable": false
     },
     {
@@ -79,7 +79,7 @@
       "description": "",
       "alcohol": 8,
       "ingredients": ["깔루아", "우유"],
-      "youtubeId": "",
+      "youtubeId": "57sY1X4ybhM",
       "isModifiable": false
     },
     {
@@ -89,7 +89,7 @@
       "description": "파인애플이 무성한 언덕",
       "alcohol": 6.9,
       "ingredients": ["럼", "말리부", "피나믹스", "파인애플"],
-      "youtubeId": "",
+      "youtubeId": "dqU89zoTR2Y",
       "isModifiable": false
     },
     {
@@ -109,7 +109,7 @@
       "description": "이것도 테이크아웃...",
       "alcohol": 6.3,
       "ingredients": ["베일리스", "밀크"],
-      "youtubeId": "",
+      "youtubeId": "VNJzotC5ZVA",
       "isModifiable": false
     }
   ]

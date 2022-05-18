@@ -9,7 +9,7 @@
       "description": "칵테일의 여왕",
       "alcohol": 37,
       "ingredients": ["버번", "앙고스투라", "스윗버무스"],
-      "youtubeId": "",
+      "youtubeId": "PP9XmmDUMvs",
       "isModifiable": true
     },
     {
@@ -66,7 +66,7 @@
       "description": "",
       "alcohol": 27.3,
       "ingredients": ["캄파리", "진", "스윗베르뭇"],
-      "youtubeId": "",
+      "youtubeId": "SwBQtS46Hwg",
       "isModifiable": true
     },
     {
@@ -76,7 +76,7 @@
       "description": "민트초코!!",
       "alcohol": 16,
       "ingredients": ["민트", "카카오", "크림"],
-      "youtubeId": "",
+      "youtubeId": "odxVNE55QjY",
       "isModifiable": false
     },
     {
@@ -96,7 +96,7 @@
         "바닐라빈",
         "탄산수"
       ],
-      "youtubeId": "",
+      "youtubeId": "BKhMHScBs3M",
       "isModifiable": false
     }
   ]
