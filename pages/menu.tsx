@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import MenuCategory from "../components/menu/category";
+import MenuItemComponent from "../components/menu/item";
 import martini from "../pages/api/data/menu/martini.json";
 import longtea from "../pages/api/data/menu/longtea.json";
 import bartender from "../pages/api/data/menu/bartender.json";
@@ -15,6 +16,7 @@ import sweet from "../pages/api/data/menu/sweet.json";
 import sour from "../pages/api/data/menu/sour.json";
 import mocktail from "../pages/api/data/menu/mocktail.json";
 import beer from "../pages/api/data/menu/beer.json";
+import snack from "../pages/api/data/menu/snack.json";
 
 const Menu: NextPage = () => {
   return (
@@ -77,6 +79,12 @@ const Menu: NextPage = () => {
           items={mocktail.items}
         />
         <MenuCategory key={beer.key} title={beer.title} items={beer.items} />
+        <div className="flex justify-center col-start-1 col-span-2 bg-black text-white font-exo text-5xl p-3">
+          SNACK
+        </div>
+        {snack.items.map((item, index) => (
+          <MenuItemComponent key={index} {...item} />
+        ))}
       </div>
     </div>
   );

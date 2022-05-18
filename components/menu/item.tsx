@@ -1,6 +1,5 @@
 import { NextPage } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import Modal from "react-modal";
 import { isMobile } from "react-device-detect";
@@ -18,13 +17,9 @@ export type MenuItem = {
 
 const MenuItemComponent: NextPage<MenuItem> = (item) => {
   const [modal, setModal] = useState(false);
-  const [videoLoading, setVideioLoading] = useState(false);
 
   const openModal = () => {
     setModal(!modal);
-  };
-  const spinner = () => {
-    setVideioLoading(!videoLoading);
   };
 
   Modal.setAppElement("#__next");
@@ -42,59 +37,55 @@ const MenuItemComponent: NextPage<MenuItem> = (item) => {
 
   return (
     <div className="m-3">
-      <p className="flex flex-row justify-between gap-3 font-pretend font-extrabold xl:text-2xl lg:text-xl">
-        <span>{item.name}</span>
-        <span className="font-exo">{item.englishName}</span>
-        <span className="w-7 flex items-center">
-          {item.youtubeId !== "" && (
-            <>
-              <Image
-                src="/img/youtube_black.png"
-                height={22}
-                width={30}
-                layout="intrinsic"
-                onClick={openYoutube}
-              />
-              <Modal
-                isOpen={modal}
-                onRequestClose={openModal}
-                style={{
-                  overlay: {
-                    backgroundColor: "rgba(0, 0, 0, 0.5)",
-                  },
-                  content: {
-                    top: "50%",
-                    left: "50%",
-                    right: "auto",
-                    bottom: "auto",
-                    marginRight: "-50%",
-                    transform: "translate(-50%, -50%)",
-                    border: "none",
-                  },
-                }}
-              >
-                <iframe
-                  className="modal__video-style"
-                  onLoad={spinner}
-                  loading="lazy"
-                  width="700"
-                  height="500"
-                  src={`https://www.youtube.com/embed/${item.youtubeId}`}
-                  title={item.name}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </Modal>
-            </>
+      <p className="flex justify-between gap-3 font-pretend font-extrabold xl:text-2xl lg:text-xl">
+        <span className="flex sm:gap-3 sm:flex-row flex-col">
+          {item.youtubeId !== "" ? (
+            <span
+              className="underline cursor-pointer hover:text-gray-700 "
+              onClick={openYoutube}
+            >
+              {item.name}
+            </span>
+          ) : (
+            <span>{item.name}</span>
           )}
+          <span className="font-exo">{item.englishName}</span>
         </span>
         <span className="flex flex-1 justify-end">
           {item.price.toFixed(1)}
           {item.isModifiable ? `~` : ``}
         </span>
       </p>
-      <p></p>
+      <Modal
+        isOpen={modal}
+        onRequestClose={openModal}
+        style={{
+          overlay: {
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+          },
+          content: {
+            top: "50%",
+            left: "50%",
+            right: "auto",
+            bottom: "auto",
+            marginRight: "-50%",
+            transform: "translate(-50%, -50%)",
+            border: "none",
+          },
+        }}
+      >
+        <iframe
+          className="modal__video-style"
+          loading="lazy"
+          width="700"
+          height="500"
+          src={`https://www.youtube.com/embed/${item.youtubeId}`}
+          title={item.name}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </Modal>
       <p className="flex flex-row justify-between">
         {item.description != "" ? (
           <span className="flex-1 font-pretend font-bold xl:text-base text-sm">

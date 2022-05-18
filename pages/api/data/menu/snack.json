@@ -1,0 +1,96 @@
+{
+  "key": "snack",
+  "title": "SNACK",
+  "items": [
+    {
+      "name": "믿고 먹는 코스트코 팝콘",
+      "englishName": "Costco Popcorn",
+      "price": 0.4,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "youtubeId": "",
+      "isModifiable": false
+    },
+    {
+      "name": "접시가 귀여운 짜파게티",
+      "englishName": "Jjapagetti",
+      "price": 0.5,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "youtubeId": "",
+      "isModifiable": false
+    },
+    {
+      "name": "너무 잘팔려서 힘든 짜파구리",
+      "englishName": "Jjapaguri",
+      "price": 1.0,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "youtubeId": "",
+      "isModifiable": false
+    },
+    {
+      "name": "쥐포 세장",
+      "englishName": "Three Dried Filefish Fillets",
+      "price": 1.1,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "youtubeId": "",
+      "isModifiable": false
+    },
+    {
+      "name": "육포 한 줌",
+      "englishName": "A Handful of Beef Jerky",
+      "price": 1.1,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "youtubeId": "",
+      "isModifiable": false
+    },
+    {
+      "name": "인스타 자랑용 직화구이 진미채",
+      "englishName": "Dried Squid Fire Show",
+      "price": 1.5,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "youtubeId": "",
+      "isModifiable": false
+    },
+    {
+      "name": "요사장이 일본에서 훔쳐온 비법으로 만든 키마카레라이스",
+      "englishName": "Curry",
+      "price": 1.7,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "youtubeId": "",
+      "isModifiable": false
+    },
+    {
+      "name": "소박한 이마트 과일",
+      "englishName": "Smail Slice Fruit",
+      "price": 1.7,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "youtubeId": "",
+      "isModifiable": false
+    },
+    {
+      "name": "에어프라이어가 있다면 누구나 할 수 있는 소시지",
+      "englishName": "Sausage",
+      "price": 2.0,
+      "description": "",
+      "alcohol": 0,
+      "ingredients": [],
+      "youtubeId": "",
+      "isModifiable": false
+    }
+  ]
+}
