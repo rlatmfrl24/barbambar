@@ -60,7 +60,7 @@ const Landing: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="my-2 h-1/5 flex flex-col justify-center align-middle text-center font-pretend bg-black text-white">
+      <div className="py-2 h-1/5 flex flex-col justify-center align-middle text-center font-pretend bg-black text-white">
         <span className="text-base mb-2 font-bold lg:text-xl">
           서울시 영등포구 영중로4길 25-1(영등포동3가 23-8) 2층
         </span>
