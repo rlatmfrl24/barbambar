@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Collapse } from "@mui/material";
 import { useEffect, useState } from "react";
+import { isMobile } from "react-device-detect";
 
 const NavBar: NextPage = () => {
   const [isClose, setIsClose] = useState(false);
@@ -16,6 +17,7 @@ const NavBar: NextPage = () => {
   };
 
   useEffect(() => {
+    setIsClose(!isMobile);
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
