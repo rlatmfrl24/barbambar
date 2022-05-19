@@ -5,10 +5,10 @@ import MainLayout from "../components/mainLayout";
 import { DefaultSeo } from "next-seo";
 
 const DEFAULT_SEO = {
-  title: "BarBamBar",
+  title: "바밤바",
   description: "대한민국 영등포 바밤바",
   canonical: "https://www.barbambar.kr/",
-  keywords: "바, 위스키, 칵테일, 영등포",
+  keywords: "바밤바, 위스키, 칵테일, 영등포",
 
   openGraph: {
     type: "website",
