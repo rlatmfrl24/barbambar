@@ -20,15 +20,19 @@ const NavBar: NextPage = () => {
           </Link>
         </div>
         <Image
+          className={
+            isClose
+              ? "lg:invisible rotate-180 transition-transform duration-200"
+              : "lg:invisible rotate-0 transition-transform duration-200"
+          }
           onClick={toggle}
-          className="lg:invisible"
-          src="/img/menu.svg"
-          width={24}
-          height={24}
+          src="/img/expand.svg"
+          width={36}
+          height={36}
           alt="menu-icon"
         />
       </div>
-      <Collapse in={isClose}>
+      <Collapse className="flex-grow lg:w-auto" in={isClose}>
         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div className="text-sm lg:flex-grow">
             <a
