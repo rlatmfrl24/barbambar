@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://barbambar.kr
+
+# Sitemaps
+Sitemap: https://barbambar.kr/sitemap.xml
