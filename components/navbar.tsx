@@ -6,12 +6,16 @@ import { useEffect, useState } from "react";
 
 const NavBar: NextPage = () => {
   const [isClose, setIsClose] = useState(false);
+  const [currentWidth, setCurrentWidth] = useState(0);
   const toggle = () => setIsClose(!isClose);
   const handleResize = () => {
-    if (window.innerWidth > 768) {
-      setIsClose(true);
-    } else {
-      setIsClose(false);
+    setCurrentWidth(window.innerWidth);
+    if (currentWidth !== window.innerWidth) {
+      if (window.innerWidth > 768 && currentWidth !== window.innerWidth) {
+        setIsClose(true);
+      } else {
+        setIsClose(false);
+      }
     }
   };
 
