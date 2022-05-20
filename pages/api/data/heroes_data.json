@@ -16,7 +16,7 @@
     "description": ["아빠가 손으로 직접 떠주는 물만 좋아하는 아빠바라기"]
   },
   {
-    "profile": "/img/hero_placeholder.png",
+    "profile": "/img/moon.png",
     "name": "달",
     "birth": "2014년 6월생",
     "gender": "공주",
@@ -24,7 +24,7 @@
     "description": ["출근할 때 온몸을 바쳐 막아서는 애교쟁이"]
   },
   {
-    "profile": "/img/hero_placeholder.png",
+    "profile": "/img/dream.png",
     "name": "꿈",
     "birth": "2014년 7월생",
     "gender": "왕자",
@@ -55,7 +55,7 @@
     ]
   },
   {
-    "profile": "/img/hero_placeholder.png",
+    "profile": "/img/deul.png",
     "name": "들",
     "birth": "2016년 8월생",
     "gender": "왕자",

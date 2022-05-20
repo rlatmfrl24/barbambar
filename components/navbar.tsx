@@ -70,7 +70,7 @@ const NavBar: NextPage = () => {
               href="heroes"
               className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
             >
-              HEROS
+              HEROES
             </a>
             <a
               href="contact"
