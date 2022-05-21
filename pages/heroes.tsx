@@ -10,7 +10,7 @@ const Heroes: NextPage = () => {
         <title>Heroes</title>
       </Head>
       <div className="container ">
-        <div className="flex justify-center font-exo xl:text-8xl lg:text-7xl md:text-6xl text-3xl text-white bg-black md:p-10 p-5 my-5 mx-3">
+        <div className="flex justify-center font-exo xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-2xl text-white bg-black md:p-10 p-5 my-5 mx-3">
           <p>
             Do You Know <br /> &nbsp;&nbsp;&nbsp;&nbsp; BarBamBar Heroes?
           </p>
