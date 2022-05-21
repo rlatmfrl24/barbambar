@@ -40,7 +40,7 @@ const About: NextPage = () => {
         </div>
         <div className="border-2 lg:mt-7 mt-3"></div>
         <div className="relative flex justify-center border-4 border-black mt-10">
-          <div className="absolute bg-gray-100 px-3 font-exo text-3xl text-red-600 -top-5 ">
+          <div className="absolute  bg-gray-100 px-3 font-exo sm:text-3xl text-2xl text-red-600 -top-5 ">
             BAR BAM BAR RULES
           </div>
           <div className="flex-1 gap-1 lg:my-8 my-2 pt-5 lg:px-10 px-5">
@@ -58,7 +58,7 @@ const About: NextPage = () => {
         </div>
         <div className="border-2 mt-8"></div>
         <div className="relative flex justify-center border-4 border-black mt-10">
-          <div className="absolute bg-gray-100 px-3 font-exo text-3xl text-red-600 -top-5 ">
+          <div className="absolute bg-gray-100 px-3 font-exo sm:text-3xl text-2xl text-red-600 -top-5 ">
             BAR BAM BAR FAQ
           </div>
           <div className="flex-1 gap-1 lg:my-8 pt-5 lg:px-10 px-5">
