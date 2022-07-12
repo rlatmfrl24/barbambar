@@ -3,8 +3,20 @@ import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import galleryData from "../public/gallery/gallerylist.json";
+import { isMobile } from "react-device-detect";
+import { useEffect, useState } from "react";
 
 const Gallery: NextPage = () => {
+  const [imgListColumn, setImgListColumn] = useState(3);
+
+  useEffect(() => {
+    if (isMobile) {
+      setImgListColumn(2);
+    } else {
+      setImgListColumn(4);
+    }
+  }, []);
+
   return (
     <div className="flex justify-center h-full bg-gray-100">
       <Head>
@@ -15,10 +27,14 @@ const Gallery: NextPage = () => {
           <p>BarBambar Gallery</p>
         </div>
         <div className="p-3">
-          <ImageList cols={4}>
+          <ImageList cols={imgListColumn}>
             {galleryData.map((image, index) => (
               <ImageListItem key={index}>
-                <a href={"/gallery/" + image} target="_blank">
+                <a
+                  href={"/gallery/" + image}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <Image
                     width="100%"
                     height="100%"
