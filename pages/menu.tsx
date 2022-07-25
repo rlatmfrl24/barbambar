@@ -23,7 +23,7 @@ const Menu: NextPage = () => {
   return (
     <div className="flex justify-center bg-gray-100">
       <Head>
-        <title>Menu</title>
+        <title>Menu - 바밤바</title>
       </Head>
 
       <div className="container p-5">

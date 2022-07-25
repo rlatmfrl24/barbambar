@@ -9,7 +9,7 @@ const About: NextPage = () => {
   return (
     <div className="flex justify-center bg-gray-100">
       <Head>
-        <title>About</title>
+        <title>About - 바밤바</title>
       </Head>
       <div className="flex flex-col text-center lg:m-10 m-4 ">
         <div className="flex flex-auto justify-center p-5">

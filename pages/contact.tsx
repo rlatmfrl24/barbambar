@@ -41,7 +41,7 @@ const Contact: NextPage = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-gray-100 h-full">
       <Head>
-        <title>Contact</title>
+        <title>Contact - 바밤바</title>
       </Head>
       <div className="flex flex-col flex-wrap gap-3 h-full justify-center">
         <div className="flex flex-col justify-center items-center font-exo">

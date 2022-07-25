@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import Collapse from "@mui/material/Collapse";
 import { useState } from "react";
 
@@ -21,8 +22,16 @@ const Landing: NextPage = () => {
           <Collapse in={isClose}>
             <div className="flex justify-center items-center">
               <div className="flex justify-center items-center flex-1 flex-col sm:flex-row">
-                <span>한정판 요사장 글랜캐런 코피타 글래스 판매중!&nbsp;</span>
-                <span>문의는 DM 및 전화로!</span>
+                <span>한정판 요피타 글래스와 티셔츠 판매중!&nbsp;</span>
+                <span>
+                  자세한 내용은{" "}
+                  <Link href="/event/list">
+                    <a className="border-b-2 border-b-black font-bold text-lg">
+                      EVENT
+                    </a>
+                  </Link>{" "}
+                  페이지에서 확인하세요!
+                </span>
               </div>
               <div className="flex-0 w-7 cursor-pointer" onClick={toggle}>
                 <Image
