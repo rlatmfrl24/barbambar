@@ -1,5 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
+import eventList from "../../pages/api/data/event.json";
 
 const EventList: NextPage = () => {
   return (
@@ -12,18 +14,18 @@ const EventList: NextPage = () => {
           <h1 className="text-3xl font-exo font-bold">Event List</h1>
         </div>
         <div id="event_list" className="mt-5 flex flex-col gap-5">
-          <EvnetCard
-            title="(한정판) 요피타 글랜캐런 글래스 판매중!"
-            startDate="2022.05.11"
-            endDate=""
-            isOnGoing={true}
-          />
-          <EvnetCard
-            title="(한정판) 요사장 티셔츠 판매중!"
-            startDate="2022.05.11"
-            endDate=""
-            isOnGoing={true}
-          />
+          {eventList.map((event, index) => (
+            <Link href={`/event/${event._id}`} key={index}>
+              <a>
+                <EvnetCard
+                  title={event.name}
+                  startDate={event.startDate}
+                  endDate={event.endDate}
+                  isOnGoing={event.isOngoing}
+                />
+              </a>
+            </Link>
+          ))}
         </div>
       </div>
     </div>
@@ -39,28 +41,37 @@ const EvnetCard: NextPage<{
   return (
     <div
       id="event_card_example"
-      className="bg-white shadow-md p-5 hover:bg-slate-200 cursor-pointer flex justify-between items-center rounded-md"
+      className="bg-white shadow-md p-5 hover:bg-slate-200 cursor-pointer flex flex-col-reverse sm:flex-row justify-between items-start rounded-md "
     >
       <div aria-label="event_text_content">
         <div
           aria-label="event_title"
-          className="font-pretend text-3xl font-bold"
+          className="font-pretend text-lg sm:text-3xl font-bold mt-2 sm:mt-0"
         >
           {data.title}
         </div>
         <div
           aria-label="event_date"
-          className="mt-3 font-pretend font-semibold"
+          className="mt-0 sm:mt-3 font-pretend font-semibold"
         >
           {data.startDate} - {data.endDate}
         </div>
       </div>
-      <div
-        aria-label="event_status"
-        className="text-white bg-blue-600 font-pretend font-semibold p-3 rounded-2xl"
-      >
-        {data.isOnGoing ? "진행중" : "종료"}
-      </div>
+      {data.isOnGoing ? (
+        <div
+          aria-label="event_status"
+          className="text-white bg-blue-400 font-pretend font-semibold px-2 py-1 rounded-xl"
+        >
+          진행중
+        </div>
+      ) : (
+        <div
+          aria-label="event_status"
+          className="text-white bg-red-400 font-pretend font-semibold p-3 rounded-2xl"
+        >
+          종료
+        </div>
+      )}
     </div>
   );
 };

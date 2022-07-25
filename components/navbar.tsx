@@ -55,38 +55,38 @@ const NavBar: NextPage = () => {
         <div className="w-full block flex-grow md:flex md:items-center md:w-auto">
           <div className="text-sm md:flex-grow">
             <a
-              href="about"
+              href="/about"
               className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
             >
               ABOUT
             </a>
             <a
-              href="menu"
+              href="/menu"
               className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
             >
               MENU
             </a>
             <a
-              href="event/list"
+              href="/event/list"
               className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
             >
               EVENT
             </a>
 
             <a
-              href="heroes"
+              href="/heroes"
               className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
             >
               HEROES
             </a>
             <a
-              href="gallery"
+              href="/gallery"
               className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
             >
               GALLERY
             </a>
             <a
-              href="contact"
+              href="/contact"
               className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
             >
               CONTACT
