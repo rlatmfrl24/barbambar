@@ -54,43 +54,36 @@ const NavBar: NextPage = () => {
       >
         <div className="w-full block flex-grow md:flex md:items-center md:w-auto">
           <div className="text-sm md:flex-grow">
-            <a
-              href="/about"
-              className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
-            >
-              ABOUT
-            </a>
-            <a
-              href="/menu"
-              className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
-            >
-              MENU
-            </a>
-            <a
-              href="/event/list"
-              className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
-            >
-              EVENT
-            </a>
-
-            <a
-              href="/heroes"
-              className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
-            >
-              HEROES
-            </a>
-            <a
-              href="/gallery"
-              className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
-            >
-              GALLERY
-            </a>
-            <a
-              href="/contact"
-              className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4"
-            >
-              CONTACT
-            </a>
+            <Link href="/about">
+              <a className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4">
+                ABOUT
+              </a>
+            </Link>
+            <Link href="/menu">
+              <a className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4">
+                MENU
+              </a>
+            </Link>
+            <Link href="/event/list">
+              <a className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4">
+                EVENT
+              </a>
+            </Link>
+            <Link href="/heroes">
+              <a className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4">
+                HEROES
+              </a>
+            </Link>
+            <Link href={"/gallery"}>
+              <a className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4">
+                GALLERY
+              </a>
+            </Link>
+            <Link href="/contact">
+              <a className="font-exo font-semibold block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-200 mr-4">
+                CONTACT
+              </a>
+            </Link>
           </div>
           <div className="flex mt-3 md:mt-0">
             <Link href="https://www.youtube.com/channel/UCzww46F6Cjj_I751OtLSXSQ">

@@ -55,8 +55,12 @@ const Yopita: NextPage = () => {
             />
           </div>
           <div className="flex-1 font-pretend font-semibold text-base sm:text-xl md:text-2xl lg:text-3xl max-w-lg">
-            {event?.description.map((line) => {
-              return <p className="my-2 md:my-5">{line}</p>;
+            {event?.description.map((line, index) => {
+              return (
+                <p key={index} className="my-2 md:my-5">
+                  {line}
+                </p>
+              );
             })}
           </div>
         </div>
