@@ -25,25 +25,27 @@ const MenuItemComponent: NextPage<MenuItem> = (item) => {
   Modal.setAppElement("#__next");
 
   const openYoutube = () => {
-    if (isMobile || window.innerWidth < 768) {
-      window.open(
-        `https://www.youtube.com/watch?v=${item.youtubeId}`,
-        "_blank"
-      );
-    } else {
-      openModal();
+    if (item.youtubeId !== "") {
+      if (isMobile || window.innerWidth < 768) {
+        window.open(
+          `https://www.youtube.com/watch?v=${item.youtubeId}`,
+          "_blank"
+        );
+      } else {
+        openModal();
+      }
     }
   };
 
   return (
-    <div className="m-3">
-      <p className="flex justify-between gap-3 font-pretend font-extrabold xl:text-2xl lg:text-xl">
+    <div
+      className="m-1 p-2 hover:bg-slate-300 cursor-pointer focus:bg-slate-300"
+      onClick={openYoutube}
+    >
+      <p className="flex justify-between gap-3 font-pretend font-extrabold xl:text-2xl lg:text-xl ">
         <span className="flex sm:gap-3 sm:flex-row flex-col">
           {item.youtubeId !== "" ? (
-            <span
-              className="underline cursor-pointer hover:text-gray-700 "
-              onClick={openYoutube}
-            >
+            <span className="underline cursor-pointer hover:text-gray-700 ">
               {item.name}
             </span>
           ) : (
