@@ -2,8 +2,8 @@
   {
     "_id": 5,
     "name": "바밤바 11주년 이벤트!",
-    "startDate": "2020-07-26",
-    "endDate": "",
+    "startDate": "2022-08-23",
+    "endDate": "2022-08-25",
     "price": "",
     "isOngoing": true,
     "image": "/event/eleven.jpg",
@@ -18,10 +18,10 @@
   {
     "_id": 3,
     "name": "2022 PISCO WEEK!!",
-    "startDate": "2020-07-21",
-    "endDate": "",
+    "startDate": "2022-07-21",
+    "endDate": "2022-07-31",
     "price": "",
-    "isOngoing": true,
+    "isOngoing": false,
     "image": "/event/pisco.jpg",
     "description": [
       "바밤바에서 2022 피스코 위크가 시작됩니다!",
@@ -33,7 +33,7 @@
   {
     "_id": 4,
     "name": "달리 x 바밤바 팝콘 이벤트!",
-    "startDate": "2020-07-18",
+    "startDate": "2022-07-18",
     "endDate": "",
     "price": "",
     "isOngoing": true,
@@ -48,7 +48,7 @@
   {
     "_id": 2,
     "name": "(한정판) 요사장 티셔츠 판매중!",
-    "startDate": "2020-05-25",
+    "startDate": "2022-05-25",
     "endDate": "",
     "price": "38000",
     "isOngoing": true,
@@ -64,7 +64,7 @@
   {
     "_id": 1,
     "name": "(한정판) 요피타 글랜캐런 글래스 판매중!",
-    "startDate": "2020-06-28",
+    "startDate": "2022-06-28",
     "endDate": "",
     "price": "15000",
     "isOngoing": true,
