@@ -67,7 +67,7 @@ const EvnetCard: NextPage<{
       ) : (
         <div
           aria-label="event_status"
-          className="text-white bg-red-400 font-pretend font-semibold p-3 rounded-2xl"
+          className="text-white bg-red-400 font-pretend font-semibold px-2 py-1 rounded-xl"
         >
           종료
         </div>
