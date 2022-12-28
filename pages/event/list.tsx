@@ -6,7 +6,7 @@ import eventList from "../../pages/api/data/event.json";
 const EventList: NextPage = () => {
   function sortEventList() {
     const list = JSON.parse(JSON.stringify(eventList));
-    const sortedList = list.sort((a, b) => {
+    const sortedList = list.sort((a: any, b: any) => {
       const aDate = new Date(a.startDate);
       const bDate = new Date(b.startDate);
       return aDate.getTime() - bDate.getTime();
