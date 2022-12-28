@@ -1,22 +1,18 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import { useEffect } from "react";
 import eventList from "../../pages/api/data/event.json";
 
 const EventList: NextPage = () => {
-  useEffect(() => {
-    // event sort by isOngoing boolean
-    eventList.sort((a, b) => {
-      if (a.isOngoing && !b.isOngoing) {
-        return 1;
-      } else if (!a.isOngoing && b.isOngoing) {
-        return -1;
-      } else {
-        return 0;
-      }
+  function sortEventList() {
+    const list = JSON.parse(JSON.stringify(eventList));
+    const sortedList = list.sort((a: any, b: any) => {
+      const aDate = new Date(a.startDate);
+      const bDate = new Date(b.startDate);
+      return aDate.getTime() - bDate.getTime();
     });
-  }, []);
+    return sortedList;
+  }
 
   return (
     <div className="flex justify-center h-full bg-gray-100">
@@ -28,7 +24,7 @@ const EventList: NextPage = () => {
           <h1 className="text-3xl font-exo font-bold">Event List</h1>
         </div>
         <div id="event_list" className="mt-5 flex flex-col gap-5">
-          {eventList.map((event, index) => (
+          {sortEventList().map((event: any, index: number) => (
             <Link href={`/event/${event._id}`} key={index}>
               <a>
                 <EvnetCard
