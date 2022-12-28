@@ -1,9 +1,23 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import { useEffect } from "react";
 import eventList from "../../pages/api/data/event.json";
 
 const EventList: NextPage = () => {
+  useEffect(() => {
+    // event sort by isOngoing boolean
+    eventList.sort((a, b) => {
+      if (a.isOngoing && !b.isOngoing) {
+        return 1;
+      } else if (!a.isOngoing && b.isOngoing) {
+        return -1;
+      } else {
+        return 0;
+      }
+    });
+  }, []);
+
   return (
     <div className="flex justify-center h-full bg-gray-100">
       <Head>
